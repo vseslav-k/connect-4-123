@@ -1,6 +1,6 @@
 #include "Othello.h"
 #include <iostream>
-
+#define lambda auto
 // Define the 8 directions: N, NE, E, SE, S, SW, W, NW
 const int Othello::DIRECTIONS[8][2] = {
     {0, -1}, {1, -1}, {1, 0}, {1, 1},
@@ -29,7 +29,7 @@ void Othello::setUpBoard() {
     Player* whitePlayer = getPlayerAt(WHITE_PLAYER);
 
     // Standard Othello starting position
-    auto placePiece = [&](int x, int y, Player* player) {
+    lambda placePiece = [&](int x, int y, Player* player) {
         Bit* piece = createPiece(player);
         piece->setPosition(_grid->getSquare(x, y)->getPosition());
         _grid->getSquare(x, y)->setBit(piece);
