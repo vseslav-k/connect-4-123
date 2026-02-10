@@ -183,8 +183,24 @@ void Connect4::updateAI(){
 }
 
 
-int Connect4::negamax(Board board, Color player, int a, int b, int d)
+bool Connect4::moveIsLegal(const Board& board, int i){
+    if()
+}
+
+
+
+
+int Connect4::negamax(Board& board, Color player, int a, int b, int d)
 {   int score = evalBoardState(board, player);
+    if(checkForWinner()->index() == player){ 
+        return 999999;
+    }
+    if(checkForWinner()->index() == !player){ 
+        return -999999;
+    }
+    if(checkForDraw() != -1){
+        return 0;
+    }
     if(score > 999) {
         return score;
     }

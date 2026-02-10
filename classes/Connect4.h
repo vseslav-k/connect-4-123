@@ -128,8 +128,8 @@ private:
     std::pair<int, int> cordsBoardToGrid(int boardIdx);
     int cordsGridToBoard(std::pair<int, int> gridCords);
 
-    int negamax(Board board, Color player, int a, int b, int d);
-    
+    int negamax(Board& board, Color player, int a, int b, int d);
+    bool moveIsLegal(const Board& board, int i);
 
     int aiPlayer;
 
