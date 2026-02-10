@@ -2,7 +2,7 @@
 
 
 int Connect4::assessWinPattern(const Board& board, Color color, int patternIdx){
-    if(winningPatterns[patternIdx] & board.pieces[!color] != 0)
+    if((winningPatterns[patternIdx] & board.pieces[!color]) != 0)
         return 0;
 
     
@@ -40,11 +40,20 @@ Connect4::Connect4(int aiPlayer){
     _grid = new Grid(7,6);
     _board.pieces[RED] = 0;
     _board.pieces[YELLOW] = 0;
+
+
+    log(Info, ptrToStr(winningPatterns.data(), winningPatterns.size(), numToStrBin, "\n"));
     
 }
 Connect4::~Connect4(){
     delete _grid;
 }
+
+
+std::string Connect4::boardify(Board board){
+    std::string
+}
+
 
 Player* Connect4::checkForWinner(){
     for(int i = 0; i < 69; ++i)
@@ -184,7 +193,7 @@ void Connect4::updateAI(){
 
 
 bool Connect4::moveIsLegal(const Board& board, int i){
-    if()
+    return true;
 }
 
 
@@ -192,13 +201,13 @@ bool Connect4::moveIsLegal(const Board& board, int i){
 
 int Connect4::negamax(Board& board, Color player, int a, int b, int d)
 {   int score = evalBoardState(board, player);
-    if(checkForWinner()->index() == player){ 
+    if(checkForWinner()->playerNumber() == player){ 
         return 999999;
     }
-    if(checkForWinner()->index() == !player){ 
+    if(checkForWinner()->playerNumber() == !player){ 
         return -999999;
     }
-    if(checkForDraw() != -1){
+    if(checkForDraw()){
         return 0;
     }
     if(score > 999) {
