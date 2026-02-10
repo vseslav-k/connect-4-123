@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/vsesl/OneDrive/Documents/CMPM123/connect-4-123
-BuildDirectory: C:/Users/vsesl/OneDrive/Documents/CMPM123/connect-4-123/build
+SourceDirectory: C:/Users/vsesl/Documents/UCSC/CMPM123/connect-4-123
+BuildDirectory: C:/Users/vsesl/Documents/UCSC/CMPM123/connect-4-123/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: laptop14
+Site: VSDESKTOP
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Win32-ninja
+BuildName: Win32-MSBuild
 
 # Subprojects
 LabelsForSubprojects: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/vsesl/OneDrive/Documents/CMPM123/connect-4-123"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/vsesl/Documents/UCSC/CMPM123/connect-4-123"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -64,7 +64,7 @@ UpdateType: git
 
 # Compiler info
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe
-CompilerVersion: 19.50.35721.0
+CompilerVersion: 19.50.35722.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -98,7 +98,7 @@ TestLoad:
 TLSVerify: 
 TLSVersion: 
 
-UseLaunchers: 
+UseLaunchers: 0
 CurlOptions: 
 # warning, if you add new options here that have to do with submit,
 # you have to update cmCTestSubmitCommand.cxx
