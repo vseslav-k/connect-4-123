@@ -191,4 +191,24 @@ int Connect4::negamax(Board board, Color player, int a, int b, int d)
     if(d == 0){
         return score;
     }
+
+    int bestScore = -99999;
+    int res = bestScore;
+
+    for(int i = 0; i < 42; ++i){
+        if(!moveIsLegal(board, i)) continue;
+
+        setBitInPlace(board.pieces[player], i, true);
+        res = - negamax(board, static_cast<Color>(!player), -b, -a, d-1);
+        bestScore = std::max(bestScore, res);
+        a = std::max(a, res);
+        setBitInPlace(board.pieces[player], i, false);
+
+        if(a >= b) return bestScore;
+
+    }
+
+    return bestScore;
+
+
 }
