@@ -33,6 +33,23 @@ int Connect4::cordsGridToBoard(std::pair<int, int> gridCords){
     return gridCords.first + gridCords.second*7 ;
 }
 
+template<class typ>
+inline std::string formatBoard(typ board, int x = 0){
+    std::string res;
+    res.reserve(75);
+    std::string bin = numToStrBin(board);
+
+    for(int i = 0; i < 64; ++i){
+        if(i > 0 && i % 7 == 0 && i < 42) res.push_back('\n');
+        if(i == 42) res.push_back('\n');
+        res.push_back(bin[i]);
+    }
+    res += "\n\n";
+
+    return res;
+
+}
+
 
 
 Connect4::Connect4(int aiPlayer){
@@ -41,8 +58,9 @@ Connect4::Connect4(int aiPlayer){
     _board.pieces[RED] = 0;
     _board.pieces[YELLOW] = 0;
 
+    std::string boards = ptrToStr(winningPatterns.data(), winningPatterns.size(), formatBoard, "\n");
 
-    log(Info, ptrToStr(winningPatterns.data(), winningPatterns.size(), numToStrBin, "\n"));
+    //log(Debug, boards);
     
 }
 Connect4::~Connect4(){
@@ -50,21 +68,16 @@ Connect4::~Connect4(){
 }
 
 
-std::string Connect4::boardify(Board board){
-    std::string
-}
 
 
 Player* Connect4::checkForWinner(){
     for(int i = 0; i < 69; ++i)
         if(std::popcount(winningPatterns[i] & _board.pieces[RED]) >= 4){
-            log(Debug, "Win pattern " + numToStrBin(winningPatterns[i]));
             return getPlayerAt(RED);
         }
 
     for(int i = 0; i < 69; ++i)
         if(std::popcount(winningPatterns[i] & _board.pieces[YELLOW]) >= 4){
-            log(Debug, "Win pattern " + numToStrBin(winningPatterns[i]));
             return getPlayerAt(YELLOW);
         }
 
@@ -92,10 +105,10 @@ void Connect4::setUpBoard() {
 }
 
 std::string Connect4::initialStateString(){
-    return "000000000000000000000000000000000000000000";
+    return "000000000000000000000000000000000000000000\n000000000000000000000000000000000000000000";
 }
 std::string Connect4::stateString(){
-    return "000000000000000000000000000000000000000000";
+    return formatBoard(_board.pieces[RED]) + formatBoard(_board.pieces[YELLOW]);
 }
 void Connect4::setStateString(const std::string &s){
     
@@ -160,8 +173,8 @@ bool Connect4::actionForEmptyHolder(BitHolder &holder){
         holder.setBit(bit);
         setBitInPlace(_board.pieces[getCurrentPlayer()->playerNumber()], cordsGridToBoard(getHolderCords(holder)), true);
         //log(Debug, numToStr(cordsGridToBoard(getHolderCords(holder))));
-        log(Error, "RED: "+numToStrBin(_board.pieces[RED]));
-        log(Warn, "YEL: "+numToStrBin(_board.pieces[YELLOW]));
+        //log(Error, "RED: "+numToStrBin(_board.pieces[RED]));
+       //log(Warn, "YEL: "+numToStrBin(_board.pieces[YELLOW]));
         endTurn();
         return true;
     }
@@ -184,50 +197,84 @@ void Connect4::stopGame(){
 void Connect4::updateAI(){
     if(aiPlayer != getCurrentPlayer()->playerNumber()) return;
 
-    for(int i = 0; i < 7; ++i)
-        for(int j = 0; j < 6; ++j)
-            if(actionForEmptyHolder(*_grid->getSquare(i, j))) return;
-        
+    int bestMoveIdx = -1;
+
+    int bestScore = -999999999;
+    int res = -999999;
+
+    for(int i = 0; i < 42; ++i){
+        if(!moveIsLegal((_board.pieces[RED] | _board.pieces[YELLOW]), i)) continue;
+
+        setBitInPlace(_board.pieces[aiPlayer], i, true);
+        res = -negamax(static_cast<Color>(!aiPlayer));
+        setBitInPlace(_board.pieces[aiPlayer], i, false);
+
+        if(res > bestScore){
+            bestScore = res;
+            bestMoveIdx = i;
+        }
+
+    }
+    if(bestMoveIdx == -1) {
+        log(Error, "No legal moves available");
+        return;
+    }
+    std::pair<int, int> bestMoveCords = cordsBoardToGrid(bestMoveIdx);
     
+    actionForEmptyHolder(*_grid->getSquare(bestMoveCords.first, bestMoveCords.second));
+        
+    log(Debug, "Action made at " + numToStr(bestMoveIdx) + "("+numToStr(bestMoveCords.first)+","+numToStr(bestMoveCords.second)+")");
 }
 
 
-bool Connect4::moveIsLegal(const Board& board, int i){
-    return true;
+bool Connect4::moveIsLegal(uint64_t board, int i){  
+    if(getBit(board, i) == 1) return false;
+
+    if( i >= 35) return true;
+
+    if(getBit(board, i+7) == 1) return true;
+
+    return false;
 }
 
 
 
 
-int Connect4::negamax(Board& board, Color player, int a, int b, int d)
-{   int score = evalBoardState(board, player);
-    if(checkForWinner()->playerNumber() == player){ 
-        return 999999;
+int Connect4::negamax(Color player, int a, int b, int d)
+{   int score = evalBoardState(_board, player);
+
+    Player* winner = checkForWinner();
+
+    if(winner){
+        if(winner->playerNumber() == player){ 
+            return 999999;
+        }
+        if(winner->playerNumber() == !player){ 
+            return -999999;
+        }
     }
-    if(checkForWinner()->playerNumber() == !player){ 
-        return -999999;
-    }
+
+
+
     if(checkForDraw()){
         return 0;
     }
-    if(score > 999) {
-        return score;
-    }
-    if(d == 0){
+    if(d <= 0){
         return score;
     }
 
-    int bestScore = score;
+    int bestScore = -9999999;
     int res = -9999;
 
     for(int i = 0; i < 42; ++i){
-        if(!moveIsLegal(board, i)) continue;
+        if(!moveIsLegal(_board.pieces[RED] | _board.pieces[YELLOW], i)) continue;
 
-        setBitInPlace(board.pieces[player], i, true);
-        res = -negamax(board, static_cast<Color>(!player), -b, -a, d-1);
+        setBitInPlace(_board.pieces[player], i, true);
+        res = -negamax(static_cast<Color>(!player), -b, -a, d-1);
+        setBitInPlace(_board.pieces[player], i, false);
+
         bestScore = std::max(bestScore, res);
         a = std::max(a, res);
-        setBitInPlace(board.pieces[player], i, false);
 
         if(a >= b) return bestScore;
 

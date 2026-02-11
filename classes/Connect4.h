@@ -7,26 +7,28 @@
 
 inline constexpr std::array<uint64_t, 69> calcWinningPatterns(){ 
         std::array<uint64_t, 69> winningPatterns{};
-
+        //horizontal _
         winningPatterns[0] = (0b1111000000000000000000000000000000000000000000000000000000000000);
 
         for(int i = 1; i < 4*6;++i)
             winningPatterns[i] = winningPatterns[i-1] >> (i%4 == 0? 4 :1);
-
+        //vertical |
         winningPatterns[24] = (0b100000010000001000000100000000000000000000<<22);
         
         for(int i = 25; i < 24+3*7; ++i)
             winningPatterns[i] = winningPatterns[i-1] >> 1;
         
+        //diagonal /
         winningPatterns[45] = (0b100000001000000010000000100000000000000000<<22);
 
-        for(int i = 46; i < 45+6*2; ++i)
-            winningPatterns[i] = winningPatterns[i-1] >> (i%4 == 0? 4 :1);
+        for(int i = 46; i < 57; ++i)
+            winningPatterns[i] = winningPatterns[i-1] >> ((i == 49 || i == 53 )? 4 : 1);
 
-        winningPatterns[45] = (0b000000000000000000001000001000001000001000);
+        winningPatterns[57] = (0b0001000001000001000001000000000000000000000000000000000000000000);
 
-        for(int i = 46; i < 69; ++i)
-            winningPatterns[i] = winningPatterns[i-1] << (i%4 == 0? 4 :1);
+        //diagonal \ 
+        for(int i = 58; i < 69; ++i)
+            winningPatterns[i] = winningPatterns[i-1] >> ((i == 61 || i == 65)?4 : 1);
         
 
         return winningPatterns;
@@ -128,10 +130,9 @@ private:
     std::pair<int, int> cordsBoardToGrid(int boardIdx);
     int cordsGridToBoard(std::pair<int, int> gridCords);
 
-    int negamax(Board& board, Color player, int a, int b, int d);
-    bool moveIsLegal(const Board& board, int i);
+    int negamax(Color player, int a = -99999999999, int b = 99999999999, int d = 6);
+    bool moveIsLegal(uint64_t board, int i);
 
-    std::string formatBoard(Board board);
 
     int aiPlayer;
 
