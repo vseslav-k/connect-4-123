@@ -1,6 +1,6 @@
 #include "Connect4.h"
-
-
+#include "C:\Libraries\imgui\Timer\Timer.h"
+Timer timer = Timer();
 int Connect4::assessWinPattern(const Board& board, Color color, int patternIdx){
     if((winningPatterns[patternIdx] & board.pieces[!color]) != 0)
         return 0;
@@ -202,11 +202,17 @@ void Connect4::updateAI(){
     int bestScore = -999999999;
     int res = -999999;
 
+    int d = 7;
+
+    d += std::popcount(_board.pieces[RED] | _board.pieces[YELLOW])/(7);
+
+    log(Debug, "d= "+numToStr(d));
+    timer.setPt("AI Thinking Start");
     for(int i = 0; i < 42; ++i){
         if(!moveIsLegal((_board.pieces[RED] | _board.pieces[YELLOW]), i)) continue;
 
         setBitInPlace(_board.pieces[aiPlayer], i, true);
-        res = -negamax(static_cast<Color>(!aiPlayer));
+        res = -negamax(static_cast<Color>(!aiPlayer), -99999999999, 99999999999, d);
         setBitInPlace(_board.pieces[aiPlayer], i, false);
 
         if(res > bestScore){
@@ -215,6 +221,9 @@ void Connect4::updateAI(){
         }
 
     }
+    timer.setPt("AI Thinking End");
+    log(Info, "AI thought for: "+fltToStr(timer.milliPassed("AI Thinking Start", "AI Thinking End")));
+
     if(bestMoveIdx == -1) {
         log(Error, "No legal moves available");
         return;
@@ -223,7 +232,7 @@ void Connect4::updateAI(){
     
     actionForEmptyHolder(*_grid->getSquare(bestMoveCords.first, bestMoveCords.second));
         
-    log(Debug, "Action made at " + numToStr(bestMoveIdx) + "("+numToStr(bestMoveCords.first)+","+numToStr(bestMoveCords.second)+")");
+    //log(Debug, "Action made at " + numToStr(bestMoveIdx) + "("+numToStr(bestMoveCords.first)+","+numToStr(bestMoveCords.second)+")");
 }
 
 
@@ -238,7 +247,24 @@ bool Connect4::moveIsLegal(uint64_t board, int i){
 }
 
 
+int Connect4::legalMoveInCol(int col){
+    int moveIdx = 41 - (7-col);
+    
+    while(getBit(_board.pieces[RED] | _board.pieces[YELLOW], moveIdx) == 1 && moveIdx > 0)
+        moveIdx -=7;
+    
+    return moveIdx;
 
+    /*
+    
+    00 01 02 03 04 05 06 
+    07 08 09 10 11 12 13 
+    14 15 16 17 18 19 20 
+    21 22 23 24 25 26 27 
+    28 29 30 31 32 33 34 
+    35 36 37 38 39 40 41
+    */
+}
 
 int Connect4::negamax(Color player, int a, int b, int d)
 {   int score = evalBoardState(_board, player);
@@ -247,10 +273,10 @@ int Connect4::negamax(Color player, int a, int b, int d)
 
     if(winner){
         if(winner->playerNumber() == player){ 
-            return 999999;
+            return 9999999/(d+1);
         }
         if(winner->playerNumber() == !player){ 
-            return -999999;
+            return -99999*(d+1);
         }
     }
 

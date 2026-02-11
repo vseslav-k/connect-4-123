@@ -3,7 +3,9 @@
 #include "string"
 #include <array>
 #include <bit>
+#include <bitset>
 #include "C:\Libraries\imgui\logger\logger.h"
+
 
 inline constexpr std::array<uint64_t, 69> calcWinningPatterns(){ 
         std::array<uint64_t, 69> winningPatterns{};
@@ -95,6 +97,8 @@ public:
         std::array<uint64_t, 2> pieces;
     };
 
+
+
     Connect4(int aiPlayer = 1);
     ~Connect4();
 
@@ -130,7 +134,8 @@ private:
     std::pair<int, int> cordsBoardToGrid(int boardIdx);
     int cordsGridToBoard(std::pair<int, int> gridCords);
 
-    int negamax(Color player, int a = -99999999999, int b = 99999999999, int d = 6);
+    int negamax(Color player, int a = -99999999999, int b = 99999999999, int d = 8);
+    int legalMoveInCol(int col);
     bool moveIsLegal(uint64_t board, int i);
 
 
