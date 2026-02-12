@@ -120,7 +120,10 @@ public:
 private:
 
     Board _board;
-    static constexpr std::array<uint64_t, 69> winningPatterns = calcWinningPatterns();
+    static constexpr std::array<uint64_t, 69> WINNING_PATTERNS = calcWinningPatterns();
+    static constexpr uint64_t FULL_BOARD = 0b1111111111111111111111111111111111111111110000000000000000000000;
+    static constexpr uint64_t MID_COLUMN = 0b0001000000100000010000001000000100000010000000000000000000000000;
+    static constexpr int32_t MATE = 9999;
 
     bool isLowest(const BitHolder &holder) const;
 
@@ -137,6 +140,7 @@ private:
     int negamax(Color player, int a = -99999999999, int b = 99999999999, int d = 8);
     int legalMoveInCol(int col);
     bool moveIsLegal(uint64_t board, int i);
+    bool boardIsFull();
 
 
     int aiPlayer;

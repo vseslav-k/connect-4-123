@@ -2,11 +2,11 @@
 #include "C:\Libraries\imgui\Timer\Timer.h"
 Timer timer = Timer();
 int Connect4::assessWinPattern(const Board& board, Color color, int patternIdx){
-    if((winningPatterns[patternIdx] & board.pieces[!color]) != 0)
+    if((WINNING_PATTERNS[patternIdx] & board.pieces[!color]) != 0)
         return 0;
 
     
-    int piecesMatched = std::popcount(board.pieces[color] & winningPatterns[patternIdx]);
+    int piecesMatched = std::popcount(board.pieces[color] & WINNING_PATTERNS[patternIdx]);
 
     return piecesMatched == 4? 9999 : 1 << piecesMatched;
 }
@@ -58,7 +58,7 @@ Connect4::Connect4(int aiPlayer){
     _board.pieces[RED] = 0;
     _board.pieces[YELLOW] = 0;
 
-    std::string boards = ptrToStr(winningPatterns.data(), winningPatterns.size(), formatBoard, "\n");
+    std::string boards = ptrToStr(WINNING_PATTERNS.data(), WINNING_PATTERNS.size(), formatBoard, "\n");
 
     //log(Debug, boards);
     
@@ -72,12 +72,12 @@ Connect4::~Connect4(){
 
 Player* Connect4::checkForWinner(){
     for(int i = 0; i < 69; ++i)
-        if(std::popcount(winningPatterns[i] & _board.pieces[RED]) >= 4){
+        if((WINNING_PATTERNS[i] & _board.pieces[RED]) == WINNING_PATTERNS[i]){
             return getPlayerAt(RED);
         }
 
     for(int i = 0; i < 69; ++i)
-        if(std::popcount(winningPatterns[i] & _board.pieces[YELLOW]) >= 4){
+        if((WINNING_PATTERNS[i] & _board.pieces[YELLOW]) == WINNING_PATTERNS[i]){
             return getPlayerAt(YELLOW);
         }
 
@@ -86,9 +86,12 @@ Player* Connect4::checkForWinner(){
 }
 
 bool Connect4::checkForDraw(){
-    if(!checkForWinner() && std::popcount(_board.pieces[RED] & _board.pieces[YELLOW]) == 42) return true;
+    return (!checkForWinner() && boardIsFull());
 
-    return false;
+}
+
+bool Connect4::boardIsFull(){
+    return ((_board.pieces[RED] | _board.pieces[YELLOW]) == FULL_BOARD);
 }
 
 void Connect4::setUpBoard() {
@@ -271,26 +274,27 @@ int Connect4::negamax(Color player, int a, int b, int d)
 
     Player* winner = checkForWinner();
 
+
     if(winner){
         if(winner->playerNumber() == player){ 
-            return 9999999/(d+1);
+            return MATE/(d+1);
         }
         if(winner->playerNumber() == !player){ 
-            return -99999*(d+1);
+            return -MATE*(d+1);
         }
     }
 
 
 
-    if(checkForDraw()){
+    if(boardIsFull()){
         return 0;
     }
     if(d <= 0){
         return score;
     }
 
-    int bestScore = -9999999;
-    int res = -9999;
+    int bestScore = -MATE;
+    int res = -MATE/10;
 
     for(int i = 0; i < 42; ++i){
         if(!moveIsLegal(_board.pieces[RED] | _board.pieces[YELLOW], i)) continue;
