@@ -37,7 +37,7 @@ Connect4::Connect4(int aiPlayer){
     _board.pieces[RED] = 0;
     _board.pieces[YELLOW] = 0;
     
-    ai2GoesFirst = random01();
+    ai2GoesFirst = aiPlayer == 3? random01(): false;
     
 }
 Connect4::~Connect4(){
@@ -46,6 +46,8 @@ Connect4::~Connect4(){
 
 
 void Connect4::setUpBoard() {
+
+    log(Debug, "GEN firstAI: " + numToStr(static_cast<int>(ai2GoesFirst)));
     setNumberOfPlayers(2);
     if(aiPlayer == 1 || aiPlayer == 2)
         setAIPlayer(aiPlayer-1);
@@ -118,6 +120,21 @@ bool Connect4::actionForEmptyHolder(BitHolder &holder){
 }
 
 void Connect4::stopGame(){
+    Player* winner = checkForWinner();
+
+    if(winner == nullptr){
+        log(Debug, "GEN Draw");
+    }else{
+        if(winner->playerNumber() == RED){
+            log(Debug, "P1 Wins");
+            log(Debug, "AI" + numToStr(ai2GoesFirst?2:1)  + " Wins");
+        }
+        if(winner->playerNumber() == YELLOW){
+            log(Debug, "P2 Wins");
+            log(Debug, "AI" + numToStr(!ai2GoesFirst?2:1)  + " Wins");
+        }
+    }
+    
     _grid->forEachSquare([](ChessSquare* square, int x, int y) {
         square->destroyBit();
     });
@@ -158,9 +175,9 @@ void Connect4::updateAI(){
 
 
 
-    log(Debug, "Turn: " + numToStr(this->_turns.size()));
-    log(Debug, "Depth: " + numToStr(d));
-    timer.setPt("AI Thinking Start");
+    log(Debug, "AI1 Turn: " + numToStr(this->_turns.size()));
+    log(Debug, "AI1 Depth: " + numToStr(d));
+    timer.setPt("AI1 Thinking Start");
     for(int i = 0; i < 42; ++i){
         if(!moveIsLegal((_board.pieces[RED] | _board.pieces[YELLOW]), i)) continue;
 
@@ -174,11 +191,11 @@ void Connect4::updateAI(){
         }
 
     }
-    timer.setPt("AI Thinking End");
-    log(Info, "Thinking Time: "+fltToStr(timer.milliPassed("AI Thinking Start", "AI Thinking End")));
+    timer.setPt("AI1 Thinking End");
+    log(Info, "AI1 ThinkTime: "+fltToStr(timer.milliPassed("AI1 Thinking Start", "AI1 Thinking End")));
 
     if(bestMoveIdx == -1 && !boardIsFull()) {
-        log(Error, "No legal moves available");
+        log(Error, "AI1 NoLegalMoves");
         return;
     }
     std::pair<int, int> bestMoveCords = cordsBoardToGrid(bestMoveIdx);

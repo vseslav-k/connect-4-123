@@ -98,7 +98,6 @@ namespace ClassGame {
                     }
 
 
-
                 } else {
                     ImGui::Text("Current Player Number: %d", game->getCurrentPlayer()->playerNumber());
                     ImGui::Text("Current Board State: %s", game->stateString().c_str());
@@ -111,6 +110,7 @@ namespace ClassGame {
                     }
                     ImGui::SameLine();
                     if (ImGui::Button("Back")) {
+                        sessions = 0;
                         delete game;
                         game = nullptr;
                     }

@@ -1,0 +1,2002 @@
+[DEBUG] AI2 Turn: 1
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 406.8722
+[DEBUG] AI1 Turn: 2
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1248.8221
+[DEBUG] AI2 Turn: 3
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1026.5076
+[DEBUG] AI1 Turn: 4
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 288.2905
+[DEBUG] AI2 Turn: 5
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 80.8998
+[DEBUG] AI1 Turn: 6
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 185.0397
+[DEBUG] AI2 Turn: 7
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 850.0245
+[DEBUG] AI1 Turn: 8
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 393.3415
+[DEBUG] AI2 Turn: 9
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 865.2841
+[DEBUG] AI1 Turn: 10
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 1567.1137
+[DEBUG] AI2 Turn: 11
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 1633.6323
+[DEBUG] AI1 Turn: 12
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 892.8447
+[DEBUG] AI2 Turn: 13
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 2370.3928
+[DEBUG] AI1 Turn: 14
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 464.6525
+[DEBUG] AI2 Turn: 15
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 1345.8019
+[DEBUG] AI1 Turn: 16
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 628.6588
+[DEBUG] AI2 Turn: 17
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 2775.7273
+[DEBUG] AI1 Turn: 18
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 471.2163
+[DEBUG] AI2 Turn: 19
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 1879.9818
+[DEBUG] AI1 Turn: 20
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 244.5563
+[DEBUG] AI2 Turn: 21
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 359.6754
+[DEBUG] AI1 Turn: 22
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 31.6192
+[DEBUG] AI2 Turn: 23
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 6.9868
+[DEBUG] AI1 Turn: 24
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0241
+[DEBUG] AI2 Turn: 25
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.1694
+[DEBUG] AI1 Turn: 26
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.1043
+[DEBUG] AI2 Turn: 27
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0724
+[DEBUG] AI1 Turn: 28
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0308
+[DEBUG] AI2 Turn: 29
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0497
+[DEBUG] AI1 Turn: 30
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0111
+[DEBUG] AI2 Turn: 31
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0076
+[DEBUG] AI1 Turn: 32
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0031
+[DEBUG] AI2 Turn: 33
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0034
+[DEBUG] AI1 Turn: 34
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0032
+[DEBUG] AI2 Turn: 35
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0021
+[DEBUG] AI2 Won
+[DEBUG] P1 Won
+[DEBUG] AI2 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Turn: 1
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 395.9676
+[DEBUG] AI2 Turn: 2
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1285.8512
+[DEBUG] AI1 Turn: 3
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1009.1494
+[DEBUG] AI2 Turn: 4
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 293.1693
+[DEBUG] AI1 Turn: 5
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 83.4902
+[DEBUG] AI2 Turn: 6
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 189.5033
+[DEBUG] AI1 Turn: 7
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 805.6632
+[DEBUG] AI2 Turn: 8
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 399.7050
+[DEBUG] AI1 Turn: 9
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 858.9629
+[DEBUG] AI2 Turn: 10
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 1608.9998
+[DEBUG] AI1 Turn: 11
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 1639.4132
+[DEBUG] AI2 Turn: 12
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 927.3568
+[DEBUG] AI1 Turn: 13
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 2337.8520
+[DEBUG] AI2 Turn: 14
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 492.2200
+[DEBUG] AI1 Turn: 15
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 1329.4292
+[DEBUG] AI2 Turn: 16
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 636.6267
+[DEBUG] AI1 Turn: 17
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 2751.9266
+[DEBUG] AI2 Turn: 18
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 486.2656
+[DEBUG] AI1 Turn: 19
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 1893.3631
+[DEBUG] AI2 Turn: 20
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 242.2978
+[DEBUG] AI1 Turn: 21
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 369.8195
+[DEBUG] AI2 Turn: 22
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 32.7311
+[DEBUG] AI1 Turn: 23
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 7.0021
+[DEBUG] AI2 Turn: 24
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0244
+[DEBUG] AI1 Turn: 25
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.1751
+[DEBUG] AI2 Turn: 26
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.1060
+[DEBUG] AI1 Turn: 27
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0722
+[DEBUG] AI2 Turn: 28
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0304
+[DEBUG] AI1 Turn: 29
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0304
+[DEBUG] AI2 Turn: 30
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0111
+[DEBUG] AI1 Turn: 31
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0076
+[DEBUG] AI2 Turn: 32
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0032
+[DEBUG] AI1 Turn: 33
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0035
+[DEBUG] AI2 Turn: 34
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0022
+[DEBUG] AI1 Turn: 35
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0022
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Turn: 1
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 402.7686
+[DEBUG] AI2 Turn: 2
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1314.2405
+[DEBUG] AI1 Turn: 3
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1006.5891
+[DEBUG] AI2 Turn: 4
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 295.0104
+[DEBUG] AI1 Turn: 5
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 79.0388
+[DEBUG] AI2 Turn: 6
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 189.2759
+[DEBUG] AI1 Turn: 7
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 809.2778
+[DEBUG] AI2 Turn: 8
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 403.4317
+[DEBUG] AI1 Turn: 9
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 844.3900
+[DEBUG] AI2 Turn: 10
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 1627.8739
+[DEBUG] AI1 Turn: 11
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 1592.0350
+[DEBUG] AI2 Turn: 12
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 939.1168
+[DEBUG] AI1 Turn: 13
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 2297.6534
+[DEBUG] AI2 Turn: 14
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 475.7895
+[DEBUG] AI1 Turn: 15
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 1293.9158
+[DEBUG] AI2 Turn: 16
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 647.7034
+[DEBUG] AI1 Turn: 17
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 2769.2989
+[DEBUG] AI2 Turn: 18
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 491.5075
+[DEBUG] AI1 Turn: 19
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 1888.0520
+[DEBUG] AI2 Turn: 20
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 234.5525
+[DEBUG] AI1 Turn: 21
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 359.8051
+[DEBUG] AI2 Turn: 22
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 33.8219
+[DEBUG] AI1 Turn: 23
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 7.1903
+[DEBUG] AI2 Turn: 24
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0243
+[DEBUG] AI1 Turn: 25
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.2042
+[DEBUG] AI2 Turn: 26
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.1061
+[DEBUG] AI1 Turn: 27
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0731
+[DEBUG] AI2 Turn: 28
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0303
+[DEBUG] AI1 Turn: 29
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0310
+[DEBUG] AI2 Turn: 30
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0112
+[DEBUG] AI1 Turn: 31
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0074
+[DEBUG] AI2 Turn: 32
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0032
+[DEBUG] AI1 Turn: 33
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0034
+[DEBUG] AI2 Turn: 34
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0023
+[DEBUG] AI1 Turn: 35
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0020
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] AI1 Won
+[DEBUG] P1 Won
+[DEBUG] GEN firstAI: 1
+[DEBUG] AI2 Turn: 1
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 402.3880
+[DEBUG] AI1 Turn: 2
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1301.7334
+[DEBUG] AI2 Turn: 3
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1027.8734
+[DEBUG] AI1 Turn: 4
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 299.9110
+[DEBUG] AI2 Turn: 5
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 82.6576
+[DEBUG] AI1 Turn: 6
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 195.2122
+[DEBUG] AI2 Turn: 7
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 843.7601
+[DEBUG] AI1 Turn: 8
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 405.6011
+[DEBUG] AI2 Turn: 9
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 883.0333
+[DEBUG] AI1 Turn: 10
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 1603.4001
+[DEBUG] AI2 Turn: 11
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 1636.1690
+[DEBUG] AI1 Turn: 12
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 930.1892
+[DEBUG] AI2 Turn: 13
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 2384.9704
+[DEBUG] AI1 Turn: 14
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 489.5984
+[DEBUG] AI2 Turn: 15
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 1370.6518
+[DEBUG] AI1 Turn: 16
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 650.5142
+[DEBUG] AI2 Turn: 17
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 2806.0132
+[DEBUG] AI1 Turn: 18
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 486.4036
+[DEBUG] AI2 Turn: 19
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 1925.6453
+[DEBUG] AI1 Turn: 20
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 240.7849
+[DEBUG] AI2 Turn: 21
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 372.7263
+[DEBUG] AI1 Turn: 22
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 32.4783
+[DEBUG] AI2 Turn: 23
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 6.8706
+[DEBUG] AI1 Turn: 24
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0245
+[DEBUG] AI2 Turn: 25
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.1656
+[DEBUG] AI1 Turn: 26
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.1070
+[DEBUG] AI2 Turn: 27
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0740
+[DEBUG] AI1 Turn: 28
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0305
+[DEBUG] AI2 Turn: 29
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0316
+[DEBUG] AI1 Turn: 30
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0172
+[DEBUG] AI2 Turn: 31
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0075
+[DEBUG] AI1 Turn: 32
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0032
+[DEBUG] AI2 Turn: 33
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0034
+[DEBUG] AI1 Turn: 34
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0022
+[DEBUG] AI2 Turn: 35
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0021
+[DEBUG] P1 Wins
+[DEBUG] AI2 Wins
+[DEBUG] GEN firstAI: 0
+[DEBUG] AI1 Turn: 1
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 403.5612
+[DEBUG] AI2 Turn: 2
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1285.9554
+[DEBUG] AI1 Turn: 3
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1042.3019
+[DEBUG] AI2 Turn: 4
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 292.8278
+[DEBUG] AI1 Turn: 5
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 81.1554
+[DEBUG] AI2 Turn: 6
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 190.4713
+[DEBUG] AI1 Turn: 7
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 827.3755
+[DEBUG] AI2 Turn: 8
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 400.1713
+[DEBUG] AI1 Turn: 9
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 866.7046
+[DEBUG] AI2 Turn: 10
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 1595.0780
+[DEBUG] AI1 Turn: 11
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 1645.8534
+[DEBUG] AI2 Turn: 12
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 926.4697
+[DEBUG] AI1 Turn: 13
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 2367.5242
+[DEBUG] AI2 Turn: 14
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 477.6000
+[DEBUG] AI1 Turn: 15
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 1346.8921
+[DEBUG] AI2 Turn: 16
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 643.4393
+[DEBUG] AI1 Turn: 17
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 2818.9098
+[DEBUG] AI2 Turn: 18
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 486.1569
+[DEBUG] AI1 Turn: 19
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 1915.6619
+[DEBUG] AI2 Turn: 20
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 241.0725
+[DEBUG] AI1 Turn: 21
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 366.9421
+[DEBUG] AI2 Turn: 22
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 32.4676
+[DEBUG] AI1 Turn: 23
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 6.8729
+[DEBUG] AI2 Turn: 24
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0245
+[DEBUG] AI1 Turn: 25
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.1727
+[DEBUG] AI2 Turn: 26
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.1072
+[DEBUG] AI1 Turn: 27
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0746
+[DEBUG] AI2 Turn: 28
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0312
+[DEBUG] AI1 Turn: 29
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0315
+[DEBUG] AI2 Turn: 30
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0114
+[DEBUG] AI1 Turn: 31
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0075
+[DEBUG] AI2 Turn: 32
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0031
+[DEBUG] AI1 Turn: 33
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0034
+[DEBUG] AI2 Turn: 34
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0022
+[DEBUG] AI1 Turn: 35
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0021
+[DEBUG] P1 Wins
+[DEBUG] AI1 Wins
+[DEBUG] GEN firstAI: 0
+[DEBUG] AI1 Turn: 1
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 403.6177
+[DEBUG] AI2 Turn: 2
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1284.1964
+[DEBUG] AI1 Turn: 3
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1031.6710
+[DEBUG] AI2 Turn: 4
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 292.4803
+[DEBUG] AI1 Turn: 5
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 81.0446
+[DEBUG] AI2 Turn: 6
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 189.2183
+[DEBUG] AI1 Turn: 7
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 835.2471
+[DEBUG] AI2 Turn: 8
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 409.3156
+[DEBUG] AI1 Turn: 9
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 871.3588
+[DEBUG] AI2 Turn: 10
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 1615.0856
+[DEBUG] AI1 Turn: 11
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 1633.8416
+[DEBUG] AI2 Turn: 12
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 923.8903
+[DEBUG] AI1 Turn: 13
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 2355.1562
+[DEBUG] AI2 Turn: 14
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 483.0421
+[DEBUG] AI1 Turn: 15
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 1346.9287
+[DEBUG] AI2 Turn: 16
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 639.5849
+[DEBUG] AI1 Turn: 17
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 2798.0890
+[DEBUG] AI2 Turn: 18
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 484.7114
+[DEBUG] AI1 Turn: 19
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 1919.0017
+[DEBUG] AI2 Turn: 20
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 240.9733
+[DEBUG] AI1 Turn: 21
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 367.7785
+[DEBUG] AI2 Turn: 22
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 32.9489
+[DEBUG] AI1 Turn: 23
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 8.6380
+[DEBUG] AI2 Turn: 24
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0247
+[DEBUG] AI1 Turn: 25
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.1730
+[DEBUG] AI2 Turn: 26
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.1289
+[DEBUG] AI1 Turn: 27
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0748
+[DEBUG] AI2 Turn: 28
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0308
+[DEBUG] AI1 Turn: 29
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0312
+[DEBUG] AI2 Turn: 30
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0170
+[DEBUG] AI1 Turn: 31
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0075
+[DEBUG] AI2 Turn: 32
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0032
+[DEBUG] AI1 Turn: 33
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0034
+[DEBUG] AI2 Turn: 34
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0022
+[DEBUG] AI1 Turn: 35
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0021
+[DEBUG] P1 Wins
+[DEBUG] AI1 Wins
+[DEBUG] GEN firstAI: 1
+[DEBUG] AI2 Turn: 1
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 402.4108
+[DEBUG] AI1 Turn: 2
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1295.0367
+[DEBUG] AI2 Turn: 3
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1029.8094
+[DEBUG] AI1 Turn: 4
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 293.2555
+[DEBUG] AI2 Turn: 5
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 80.7533
+[DEBUG] AI1 Turn: 6
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 189.4132
+[DEBUG] AI2 Turn: 7
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 828.3570
+[DEBUG] AI1 Turn: 8
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 399.0748
+[DEBUG] AI2 Turn: 9
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 881.1534
+[DEBUG] AI1 Turn: 10
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 1601.6847
+[DEBUG] AI2 Turn: 11
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 1644.4264
+[DEBUG] AI1 Turn: 12
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 918.7092
+[DEBUG] AI2 Turn: 13
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 2371.8547
+[DEBUG] AI1 Turn: 14
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 483.8726
+[DEBUG] AI2 Turn: 15
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 1346.7574
+[DEBUG] AI1 Turn: 16
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 634.7014
+[DEBUG] AI2 Turn: 17
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 2798.3655
+[DEBUG] AI1 Turn: 18
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 485.4452
+[DEBUG] AI2 Turn: 19
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 1929.8430
+[DEBUG] AI1 Turn: 20
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 241.5887
+[DEBUG] AI2 Turn: 21
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 367.0628
+[DEBUG] AI1 Turn: 22
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 32.4721
+[DEBUG] AI2 Turn: 23
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 6.8674
+[DEBUG] AI1 Turn: 24
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0243
+[DEBUG] AI2 Turn: 25
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.1841
+[DEBUG] AI1 Turn: 26
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.1280
+[DEBUG] AI2 Turn: 27
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0745
+[DEBUG] AI1 Turn: 28
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0309
+[DEBUG] AI2 Turn: 29
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0313
+[DEBUG] AI1 Turn: 30
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0113
+[DEBUG] AI2 Turn: 31
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0075
+[DEBUG] AI1 Turn: 32
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0031
+[DEBUG] AI2 Turn: 33
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0036
+[DEBUG] AI1 Turn: 34
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0023
+[DEBUG] AI2 Turn: 35
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0021
+[DEBUG] P1 Wins
+[DEBUG] AI2 Wins
+[DEBUG] GEN firstAI: 1
+[DEBUG] AI2 Turn: 1
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 405.9069
+[DEBUG] AI1 Turn: 2
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1275.7022
+[DEBUG] AI2 Turn: 3
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1028.2655
+[DEBUG] AI1 Turn: 4
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 294.3563
+[DEBUG] AI2 Turn: 5
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 80.8354
+[DEBUG] AI1 Turn: 6
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 188.9874
+[DEBUG] AI2 Turn: 7
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 837.2581
+[DEBUG] AI1 Turn: 8
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 400.8088
+[DEBUG] AI2 Turn: 9
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 866.5712
+[DEBUG] AI1 Turn: 10
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 1591.1015
+[DEBUG] AI2 Turn: 11
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 1627.0297
+[DEBUG] AI1 Turn: 12
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 918.8120
+[DEBUG] AI2 Turn: 13
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 2374.2564
+[DEBUG] AI1 Turn: 14
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 479.9877
+[DEBUG] AI2 Turn: 15
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 1344.3038
+[DEBUG] AI1 Turn: 16
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 632.6123
+[DEBUG] AI2 Turn: 17
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 2812.9004
+[DEBUG] AI1 Turn: 18
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 494.0690
+[DEBUG] AI2 Turn: 19
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 1901.9485
+[DEBUG] AI1 Turn: 20
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 241.3232
+[DEBUG] AI2 Turn: 21
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 367.5217
+[DEBUG] AI1 Turn: 22
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 32.4859
+[DEBUG] AI2 Turn: 23
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 6.8770
+[DEBUG] AI1 Turn: 24
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0310
+[DEBUG] AI2 Turn: 25
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.1934
+[DEBUG] AI1 Turn: 26
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.1076
+[DEBUG] AI2 Turn: 27
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0935
+[DEBUG] AI1 Turn: 28
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0308
+[DEBUG] AI2 Turn: 29
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0312
+[DEBUG] AI1 Turn: 30
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0112
+[DEBUG] AI2 Turn: 31
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0076
+[DEBUG] AI1 Turn: 32
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0032
+[DEBUG] AI2 Turn: 33
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0035
+[DEBUG] AI1 Turn: 34
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0022
+[DEBUG] AI2 Turn: 35
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0021
+[DEBUG] P1 Wins
+[DEBUG] AI2 Wins
+[DEBUG] GEN firstAI: 0
+[DEBUG] AI1 Turn: 1
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 402.0650
+[DEBUG] AI2 Turn: 2
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1303.0557
+[DEBUG] AI1 Turn: 3
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1030.2847
+[DEBUG] AI2 Turn: 4
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 293.3304
+[DEBUG] AI1 Turn: 5
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 81.3515
+[DEBUG] AI2 Turn: 6
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 189.1147
+[DEBUG] AI1 Turn: 7
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 824.4861
+[DEBUG] AI2 Turn: 8
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 398.6395
+[DEBUG] AI1 Turn: 9
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 882.1031
+[DEBUG] AI2 Turn: 10
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 1608.2811
+[DEBUG] AI1 Turn: 11
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 1641.0526
+[DEBUG] AI2 Turn: 12
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 921.7837
+[DEBUG] AI1 Turn: 13
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 2369.6928
+[DEBUG] AI2 Turn: 14
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 483.9832
+[DEBUG] AI1 Turn: 15
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 1356.8169
+[DEBUG] AI2 Turn: 16
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 633.5127
+[DEBUG] AI1 Turn: 17
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 2791.9079
+[DEBUG] AI2 Turn: 18
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 484.8396
+[DEBUG] AI1 Turn: 19
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 1904.4700
+[DEBUG] AI2 Turn: 20
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 244.1515
+[DEBUG] AI1 Turn: 21
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 377.8015
+[DEBUG] AI2 Turn: 22
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 34.0385
+[DEBUG] AI1 Turn: 23
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 7.1951
+[DEBUG] AI2 Turn: 24
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0246
+[DEBUG] AI1 Turn: 25
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.2082
+[DEBUG] AI2 Turn: 26
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.1070
+[DEBUG] AI1 Turn: 27
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0734
+[DEBUG] AI2 Turn: 28
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0302
+[DEBUG] AI1 Turn: 29
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0310
+[DEBUG] AI2 Turn: 30
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0133
+[DEBUG] AI1 Turn: 31
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0076
+[DEBUG] AI2 Turn: 32
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0032
+[DEBUG] AI1 Turn: 33
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0041
+[DEBUG] AI2 Turn: 34
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0028
+[DEBUG] AI1 Turn: 35
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0026
+[DEBUG] P1 Wins
+[DEBUG] AI1 Wins
+[DEBUG] GEN firstAI: 0
+[DEBUG] AI1 Turn: 1
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 402.9131
+[DEBUG] AI2 Turn: 2
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1277.8385
+[DEBUG] AI1 Turn: 3
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1031.5840
+[DEBUG] AI2 Turn: 4
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 296.3100
+[DEBUG] AI1 Turn: 5
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 80.8522
+[DEBUG] AI2 Turn: 6
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 189.3357
+[DEBUG] AI1 Turn: 7
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 831.7955
+[DEBUG] AI2 Turn: 8
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 411.0480
+[DEBUG] AI1 Turn: 9
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 881.2148
+[DEBUG] AI2 Turn: 10
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 1622.7369
+[DEBUG] AI1 Turn: 11
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 1657.1253
+[DEBUG] AI2 Turn: 12
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 929.7451
+[DEBUG] AI1 Turn: 13
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 2377.1351
+[DEBUG] AI2 Turn: 14
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 477.4914
+[DEBUG] AI1 Turn: 15
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 1365.1904
+[DEBUG] AI2 Turn: 16
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 649.2536
+[DEBUG] AI1 Turn: 17
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 2810.5921
+[DEBUG] AI2 Turn: 18
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 491.1768
+[DEBUG] AI1 Turn: 19
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 1928.4117
+[DEBUG] AI2 Turn: 20
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 242.9015
+[DEBUG] AI1 Turn: 21
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 367.8081
+[DEBUG] AI2 Turn: 22
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 33.2581
+[DEBUG] AI1 Turn: 23
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 7.0761
+[DEBUG] AI2 Turn: 24
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0245
+[DEBUG] AI1 Turn: 25
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.1732
+[DEBUG] AI2 Turn: 26
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.1072
+[DEBUG] AI1 Turn: 27
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0877
+[DEBUG] AI2 Turn: 28
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0308
+[DEBUG] AI1 Turn: 29
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0310
+[DEBUG] AI2 Turn: 30
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0115
+[DEBUG] AI1 Turn: 31
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0112
+[DEBUG] AI2 Turn: 32
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0032
+[DEBUG] AI1 Turn: 33
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0035
+[DEBUG] AI2 Turn: 34
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0026
+[DEBUG] AI1 Turn: 35
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0021
+[DEBUG] P1 Wins
+[DEBUG] AI1 Wins
+[DEBUG] GEN firstAI: 1
+[DEBUG] AI2 Turn: 1
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 402.8131
+[DEBUG] AI1 Turn: 2
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1302.2413
+[DEBUG] AI2 Turn: 3
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1047.0471
+[DEBUG] AI1 Turn: 4
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 296.8991
+[DEBUG] AI2 Turn: 5
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 83.0359
+[DEBUG] AI1 Turn: 6
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 194.4565
+[DEBUG] AI2 Turn: 7
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 837.0995
+[DEBUG] AI1 Turn: 8
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 401.8798
+[DEBUG] AI2 Turn: 9
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 866.8756
+[DEBUG] AI1 Turn: 10
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 1607.8448
+[DEBUG] AI2 Turn: 11
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 1628.5089
+[DEBUG] AI1 Turn: 12
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 935.8997
+[DEBUG] AI2 Turn: 13
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 2377.7205
+[DEBUG] AI1 Turn: 14
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 481.3570
+[DEBUG] AI2 Turn: 15
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 1344.9626
+[DEBUG] AI1 Turn: 16
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 636.0393
+[DEBUG] AI2 Turn: 17
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 2810.5413
+[DEBUG] AI1 Turn: 18
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 495.0585
+[DEBUG] AI2 Turn: 19
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 1931.9139
+[DEBUG] AI1 Turn: 20
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 246.0800
+[DEBUG] AI2 Turn: 21
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 370.9944
+[DEBUG] AI1 Turn: 22
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 32.4833
+[DEBUG] AI2 Turn: 23
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 7.1573
+[DEBUG] AI1 Turn: 24
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0251
+[DEBUG] AI2 Turn: 25
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.2155
+[DEBUG] AI1 Turn: 26
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.1077
+[DEBUG] AI2 Turn: 27
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0741
+[DEBUG] AI1 Turn: 28
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0307
+[DEBUG] AI2 Turn: 29
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0313
+[DEBUG] AI1 Turn: 30
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0112
+[DEBUG] AI2 Turn: 31
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0075
+[DEBUG] AI1 Turn: 32
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0047
+[DEBUG] AI2 Turn: 33
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0036
+[DEBUG] AI1 Turn: 34
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0022
+[DEBUG] AI2 Turn: 35
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0021
+[DEBUG] P1 Wins
+[DEBUG] AI2 Wins
+[DEBUG] GEN firstAI: 0
+[DEBUG] AI1 Turn: 1
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 401.4285
+[DEBUG] AI2 Turn: 2
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1275.8203
+[DEBUG] AI1 Turn: 3
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1025.5536
+[DEBUG] AI2 Turn: 4
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 293.1218
+[DEBUG] AI1 Turn: 5
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 84.8767
+[DEBUG] AI2 Turn: 6
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 199.0568
+[DEBUG] AI1 Turn: 7
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 835.2704
+[DEBUG] AI2 Turn: 8
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 400.8484
+[DEBUG] AI1 Turn: 9
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 868.8530
+[DEBUG] AI2 Turn: 10
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 1598.3212
+[DEBUG] AI1 Turn: 11
+[DEBUG] AI1 Depth: 11
+[INFO] AI1 ThinkTime: 1655.0496
+[DEBUG] AI2 Turn: 12
+[DEBUG] AI2 Depth: 11
+[INFO] AI2 ThinkTime: 928.5715
+[DEBUG] AI1 Turn: 13
+[DEBUG] AI1 Depth: 13
+[INFO] AI1 ThinkTime: 2364.1566
+[DEBUG] AI2 Turn: 14
+[DEBUG] AI2 Depth: 13
+[INFO] AI2 ThinkTime: 487.0056
+[DEBUG] AI1 Turn: 15
+[DEBUG] AI1 Depth: 14
+[INFO] AI1 ThinkTime: 1349.7590
+[DEBUG] AI2 Turn: 16
+[DEBUG] AI2 Depth: 14
+[INFO] AI2 ThinkTime: 639.3437
+[DEBUG] AI1 Turn: 17
+[DEBUG] AI1 Depth: 17
+[INFO] AI1 ThinkTime: 2807.2999
+[DEBUG] AI2 Turn: 18
+[DEBUG] AI2 Depth: 17
+[INFO] AI2 ThinkTime: 489.3195
+[DEBUG] AI1 Turn: 19
+[DEBUG] AI1 Depth: 30
+[INFO] AI1 ThinkTime: 1987.5588
+[DEBUG] AI2 Turn: 20
+[DEBUG] AI2 Depth: 30
+[INFO] AI2 ThinkTime: 243.9744
+[DEBUG] AI1 Turn: 21
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 373.3847
+[DEBUG] AI2 Turn: 22
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 32.4504
+[DEBUG] AI1 Turn: 23
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 6.8511
+[DEBUG] AI2 Turn: 24
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0246
+[DEBUG] AI1 Turn: 25
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.2082
+[DEBUG] AI2 Turn: 26
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.1295
+[DEBUG] AI1 Turn: 27
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0887
+[DEBUG] AI2 Turn: 28
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0365
+[DEBUG] AI1 Turn: 29
+[DEBUG] AI1 Depth: 20
+[INFO] AI1 ThinkTime: 0.0453
+[DEBUG] AI2 Turn: 30
+[DEBUG] AI2 Depth: 20
+[INFO] AI2 ThinkTime: 0.0137
+[DEBUG] AI1 Turn: 31
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0091
+[DEBUG] AI2 Turn: 32
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0039
+[DEBUG] AI1 Turn: 33
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0042
+[DEBUG] AI2 Turn: 34
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 0.0023
+[DEBUG] AI1 Turn: 35
+[DEBUG] AI1 Depth: 10
+[INFO] AI1 ThinkTime: 0.0021
+[DEBUG] P1 Wins
+[DEBUG] AI1 Wins
+[DEBUG] GEN firstAI: 1
+[DEBUG] AI2 Turn: 1
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 401.9257
+[DEBUG] AI1 Turn: 2
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 1285.5855
+[DEBUG] AI2 Turn: 3
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 1028.3498
+[DEBUG] AI1 Turn: 4
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 290.2886
+[DEBUG] AI2 Turn: 5
+[DEBUG] AI2 Depth: 8
+[INFO] AI2 ThinkTime: 80.5254
+[DEBUG] AI1 Turn: 6
+[DEBUG] AI1 Depth: 8
+[INFO] AI1 ThinkTime: 188.5831
+[DEBUG] AI2 Turn: 7
+[DEBUG] AI2 Depth: 9
+[INFO] AI2 ThinkTime: 824.7782
+[DEBUG] AI1 Turn: 8
+[DEBUG] AI1 Depth: 9
+[INFO] AI1 ThinkTime: 409.1802
+[DEBUG] AI2 Turn: 9
+[DEBUG] AI2 Depth: 10
+[INFO] AI2 ThinkTime: 882.4467
+[INFO] AI1 ThinkTime: 1583.5266

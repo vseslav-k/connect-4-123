@@ -1,7 +1,6 @@
 #pragma once
 
 void Connect4::updateAI2(){
-    log(Warn, "Hello from AI2");
     if(checkForWinner() || checkForDraw()) return;
     
     bool me = currPlayer();
@@ -19,9 +18,9 @@ void Connect4::updateAI2(){
 
 
 
-    log(Debug, "Turn: " + numToStr(this->_turns.size()));
-    log(Debug, "Depth: " + numToStr(d));
-    timer.setPt("AI Thinking Start");
+    log(Debug, "AI2 Turn: " + numToStr(this->_turns.size()));
+    log(Debug, "AI2 Depth: " + numToStr(d));
+    timer.setPt("AI2 Thinking Start");
     for(int i = 0; i < 42; ++i){
         if(!moveIsLegal((_board.pieces[RED] | _board.pieces[YELLOW]), i)) continue;
 
@@ -35,11 +34,11 @@ void Connect4::updateAI2(){
         }
 
     }
-    timer.setPt("AI Thinking End");
-    log(Info, "Thinking Time: "+fltToStr(timer.milliPassed("AI Thinking Start", "AI Thinking End")));
+    timer.setPt("AI2 Thinking End");
+    log(Info, "AI2 ThinkTime: "+fltToStr(timer.milliPassed("AI2 Thinking Start", "AI2 Thinking End")));
 
     if(bestMoveIdx == -1 && !boardIsFull()) {
-        log(Error, "No legal moves available");
+        log(Error, "AI2 NoLegalMoves");
         return;
     }
     std::pair<int, int> bestMoveCords = cordsBoardToGrid(bestMoveIdx);
@@ -70,6 +69,7 @@ int Connect4::negamax2(const Color player, int a, const int b, const int d){
         return 0;
     }
     */
+   
     if(d <= 0){
         return evalBoardState2(_board, player);
     }

@@ -1,0 +1,1821 @@
+AI2 Turn: 1
+AI2 Depth: 9
+AI2 ThinkTime: 406.8722
+AI1 Turn: 2
+AI1 Depth: 9
+AI1 ThinkTime: 1248.8221
+AI2 Turn: 3
+AI2 Depth: 9
+AI2 ThinkTime: 1026.5076
+AI1 Turn: 4
+AI1 Depth: 9
+AI1 ThinkTime: 288.2905
+AI2 Turn: 5
+AI2 Depth: 8
+AI1 Turn: 6
+AI1 Depth: 8
+AI1 ThinkTime: 185.0397
+AI2 Turn: 7
+AI2 Depth: 9
+AI2 ThinkTime: 850.0245
+AI1 Turn: 8
+AI1 Depth: 9
+AI1 ThinkTime: 393.3415
+AI2 Turn: 9
+AI2 Depth: 10
+AI2 ThinkTime: 865.2841
+AI1 Turn: 10
+AI1 Depth: 10
+AI1 ThinkTime: 1567.1137
+AI2 Turn: 11
+AI2 Depth: 11
+AI2 ThinkTime: 1633.6323
+AI1 Turn: 12
+AI1 Depth: 11
+AI1 ThinkTime: 892.8447
+AI2 Turn: 13
+AI2 Depth: 13
+AI2 ThinkTime: 2370.3928
+AI1 Turn: 14
+AI1 Depth: 13
+AI1 ThinkTime: 464.6525
+AI2 Turn: 15
+AI2 Depth: 14
+AI2 ThinkTime: 1345.8019
+AI1 Turn: 16
+AI1 Depth: 14
+AI1 ThinkTime: 628.6588
+AI2 Turn: 17
+AI2 Depth: 17
+AI2 ThinkTime: 2775.7273
+AI1 Turn: 18
+AI1 Depth: 17
+AI1 ThinkTime: 471.2163
+AI2 Turn: 19
+AI2 Depth: 30
+AI2 ThinkTime: 1879.9818
+AI1 Turn: 20
+AI1 Depth: 30
+AI1 ThinkTime: 244.5563
+AI2 Turn: 21
+AI2 Depth: 20
+AI2 ThinkTime: 359.6754
+AI1 Turn: 22
+AI1 Depth: 20
+AI2 Turn: 23
+AI2 Depth: 20
+AI1 Turn: 24
+AI1 Depth: 20
+AI2 Turn: 25
+AI2 Depth: 20
+AI1 Turn: 26
+AI1 Depth: 20
+AI2 Turn: 27
+AI2 Depth: 20
+AI1 Turn: 28
+AI1 Depth: 20
+AI2 Turn: 29
+AI2 Depth: 20
+AI1 Turn: 30
+AI1 Depth: 20
+AI2 Turn: 31
+AI2 Depth: 10
+AI1 Turn: 32
+AI1 Depth: 10
+AI2 Turn: 33
+AI2 Depth: 10
+AI1 Turn: 34
+AI1 Depth: 10
+AI2 Turn: 35
+AI2 Depth: 10
+AI2 Won
+P1 Won
+AI2 Won
+P1 Won
+AI1 Turn: 1
+AI1 Depth: 9
+AI1 ThinkTime: 395.9676
+AI2 Turn: 2
+AI2 Depth: 9
+AI2 ThinkTime: 1285.8512
+AI1 Turn: 3
+AI1 Depth: 9
+AI1 ThinkTime: 1009.1494
+AI2 Turn: 4
+AI2 Depth: 9
+AI2 ThinkTime: 293.1693
+AI1 Turn: 5
+AI1 Depth: 8
+AI2 Turn: 6
+AI2 Depth: 8
+AI2 ThinkTime: 189.5033
+AI1 Turn: 7
+AI1 Depth: 9
+AI1 ThinkTime: 805.6632
+AI2 Turn: 8
+AI2 Depth: 9
+AI2 ThinkTime: 399.7050
+AI1 Turn: 9
+AI1 Depth: 10
+AI1 ThinkTime: 858.9629
+AI2 Turn: 10
+AI2 Depth: 10
+AI2 ThinkTime: 1608.9998
+AI1 Turn: 11
+AI1 Depth: 11
+AI1 ThinkTime: 1639.4132
+AI2 Turn: 12
+AI2 Depth: 11
+AI2 ThinkTime: 927.3568
+AI1 Turn: 13
+AI1 Depth: 13
+AI1 ThinkTime: 2337.8520
+AI2 Turn: 14
+AI2 Depth: 13
+AI2 ThinkTime: 492.2200
+AI1 Turn: 15
+AI1 Depth: 14
+AI1 ThinkTime: 1329.4292
+AI2 Turn: 16
+AI2 Depth: 14
+AI2 ThinkTime: 636.6267
+AI1 Turn: 17
+AI1 Depth: 17
+AI1 ThinkTime: 2751.9266
+AI2 Turn: 18
+AI2 Depth: 17
+AI2 ThinkTime: 486.2656
+AI1 Turn: 19
+AI1 Depth: 30
+AI1 ThinkTime: 1893.3631
+AI2 Turn: 20
+AI2 Depth: 30
+AI2 ThinkTime: 242.2978
+AI1 Turn: 21
+AI1 Depth: 20
+AI1 ThinkTime: 369.8195
+AI2 Turn: 22
+AI2 Depth: 20
+AI1 Turn: 23
+AI1 Depth: 20
+AI2 Turn: 24
+AI2 Depth: 20
+AI1 Turn: 25
+AI1 Depth: 20
+AI2 Turn: 26
+AI2 Depth: 20
+AI1 Turn: 27
+AI1 Depth: 20
+AI2 Turn: 28
+AI2 Depth: 20
+AI1 Turn: 29
+AI1 Depth: 20
+AI2 Turn: 30
+AI2 Depth: 20
+AI1 Turn: 31
+AI1 Depth: 10
+AI2 Turn: 32
+AI2 Depth: 10
+AI1 Turn: 33
+AI1 Depth: 10
+AI2 Turn: 34
+AI2 Depth: 10
+AI1 Turn: 35
+AI1 Depth: 10
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Turn: 1
+AI1 Depth: 9
+AI1 ThinkTime: 402.7686
+AI2 Turn: 2
+AI2 Depth: 9
+AI2 ThinkTime: 1314.2405
+AI1 Turn: 3
+AI1 Depth: 9
+AI1 ThinkTime: 1006.5891
+AI2 Turn: 4
+AI2 Depth: 9
+AI2 ThinkTime: 295.0104
+AI1 Turn: 5
+AI1 Depth: 8
+AI2 Turn: 6
+AI2 Depth: 8
+AI2 ThinkTime: 189.2759
+AI1 Turn: 7
+AI1 Depth: 9
+AI1 ThinkTime: 809.2778
+AI2 Turn: 8
+AI2 Depth: 9
+AI2 ThinkTime: 403.4317
+AI1 Turn: 9
+AI1 Depth: 10
+AI1 ThinkTime: 844.3900
+AI2 Turn: 10
+AI2 Depth: 10
+AI2 ThinkTime: 1627.8739
+AI1 Turn: 11
+AI1 Depth: 11
+AI1 ThinkTime: 1592.0350
+AI2 Turn: 12
+AI2 Depth: 11
+AI2 ThinkTime: 939.1168
+AI1 Turn: 13
+AI1 Depth: 13
+AI1 ThinkTime: 2297.6534
+AI2 Turn: 14
+AI2 Depth: 13
+AI2 ThinkTime: 475.7895
+AI1 Turn: 15
+AI1 Depth: 14
+AI1 ThinkTime: 1293.9158
+AI2 Turn: 16
+AI2 Depth: 14
+AI2 ThinkTime: 647.7034
+AI1 Turn: 17
+AI1 Depth: 17
+AI1 ThinkTime: 2769.2989
+AI2 Turn: 18
+AI2 Depth: 17
+AI2 ThinkTime: 491.5075
+AI1 Turn: 19
+AI1 Depth: 30
+AI1 ThinkTime: 1888.0520
+AI2 Turn: 20
+AI2 Depth: 30
+AI2 ThinkTime: 234.5525
+AI1 Turn: 21
+AI1 Depth: 20
+AI1 ThinkTime: 359.8051
+AI2 Turn: 22
+AI2 Depth: 20
+AI1 Turn: 23
+AI1 Depth: 20
+AI2 Turn: 24
+AI2 Depth: 20
+AI1 Turn: 25
+AI1 Depth: 20
+AI2 Turn: 26
+AI2 Depth: 20
+AI1 Turn: 27
+AI1 Depth: 20
+AI2 Turn: 28
+AI2 Depth: 20
+AI1 Turn: 29
+AI1 Depth: 20
+AI2 Turn: 30
+AI2 Depth: 20
+AI1 Turn: 31
+AI1 Depth: 10
+AI2 Turn: 32
+AI2 Depth: 10
+AI1 Turn: 33
+AI1 Depth: 10
+AI2 Turn: 34
+AI2 Depth: 10
+AI1 Turn: 35
+AI1 Depth: 10
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+AI1 Won
+P1 Won
+GEN firstAI: 1
+AI2 Turn: 1
+AI2 Depth: 9
+AI2 ThinkTime: 402.3880
+AI1 Turn: 2
+AI1 Depth: 9
+AI1 ThinkTime: 1301.7334
+AI2 Turn: 3
+AI2 Depth: 9
+AI2 ThinkTime: 1027.8734
+AI1 Turn: 4
+AI1 Depth: 9
+AI1 ThinkTime: 299.9110
+AI2 Turn: 5
+AI2 Depth: 8
+AI1 Turn: 6
+AI1 Depth: 8
+AI1 ThinkTime: 195.2122
+AI2 Turn: 7
+AI2 Depth: 9
+AI2 ThinkTime: 843.7601
+AI1 Turn: 8
+AI1 Depth: 9
+AI1 ThinkTime: 405.6011
+AI2 Turn: 9
+AI2 Depth: 10
+AI2 ThinkTime: 883.0333
+AI1 Turn: 10
+AI1 Depth: 10
+AI1 ThinkTime: 1603.4001
+AI2 Turn: 11
+AI2 Depth: 11
+AI2 ThinkTime: 1636.1690
+AI1 Turn: 12
+AI1 Depth: 11
+AI1 ThinkTime: 930.1892
+AI2 Turn: 13
+AI2 Depth: 13
+AI2 ThinkTime: 2384.9704
+AI1 Turn: 14
+AI1 Depth: 13
+AI1 ThinkTime: 489.5984
+AI2 Turn: 15
+AI2 Depth: 14
+AI2 ThinkTime: 1370.6518
+AI1 Turn: 16
+AI1 Depth: 14
+AI1 ThinkTime: 650.5142
+AI2 Turn: 17
+AI2 Depth: 17
+AI2 ThinkTime: 2806.0132
+AI1 Turn: 18
+AI1 Depth: 17
+AI1 ThinkTime: 486.4036
+AI2 Turn: 19
+AI2 Depth: 30
+AI2 ThinkTime: 1925.6453
+AI1 Turn: 20
+AI1 Depth: 30
+AI1 ThinkTime: 240.7849
+AI2 Turn: 21
+AI2 Depth: 20
+AI2 ThinkTime: 372.7263
+AI1 Turn: 22
+AI1 Depth: 20
+AI2 Turn: 23
+AI2 Depth: 20
+AI1 Turn: 24
+AI1 Depth: 20
+AI2 Turn: 25
+AI2 Depth: 20
+AI1 Turn: 26
+AI1 Depth: 20
+AI2 Turn: 27
+AI2 Depth: 20
+AI1 Turn: 28
+AI1 Depth: 20
+AI2 Turn: 29
+AI2 Depth: 20
+AI1 Turn: 30
+AI1 Depth: 20
+AI2 Turn: 31
+AI2 Depth: 10
+AI1 Turn: 32
+AI1 Depth: 10
+AI2 Turn: 33
+AI2 Depth: 10
+AI1 Turn: 34
+AI1 Depth: 10
+AI2 Turn: 35
+AI2 Depth: 10
+P1 Wins
+AI2 Wins
+GEN firstAI: 0
+AI1 Turn: 1
+AI1 Depth: 9
+AI1 ThinkTime: 403.5612
+AI2 Turn: 2
+AI2 Depth: 9
+AI2 ThinkTime: 1285.9554
+AI1 Turn: 3
+AI1 Depth: 9
+AI1 ThinkTime: 1042.3019
+AI2 Turn: 4
+AI2 Depth: 9
+AI2 ThinkTime: 292.8278
+AI1 Turn: 5
+AI1 Depth: 8
+AI2 Turn: 6
+AI2 Depth: 8
+AI2 ThinkTime: 190.4713
+AI1 Turn: 7
+AI1 Depth: 9
+AI1 ThinkTime: 827.3755
+AI2 Turn: 8
+AI2 Depth: 9
+AI2 ThinkTime: 400.1713
+AI1 Turn: 9
+AI1 Depth: 10
+AI1 ThinkTime: 866.7046
+AI2 Turn: 10
+AI2 Depth: 10
+AI2 ThinkTime: 1595.0780
+AI1 Turn: 11
+AI1 Depth: 11
+AI1 ThinkTime: 1645.8534
+AI2 Turn: 12
+AI2 Depth: 11
+AI2 ThinkTime: 926.4697
+AI1 Turn: 13
+AI1 Depth: 13
+AI1 ThinkTime: 2367.5242
+AI2 Turn: 14
+AI2 Depth: 13
+AI2 ThinkTime: 477.6000
+AI1 Turn: 15
+AI1 Depth: 14
+AI1 ThinkTime: 1346.8921
+AI2 Turn: 16
+AI2 Depth: 14
+AI2 ThinkTime: 643.4393
+AI1 Turn: 17
+AI1 Depth: 17
+AI1 ThinkTime: 2818.9098
+AI2 Turn: 18
+AI2 Depth: 17
+AI2 ThinkTime: 486.1569
+AI1 Turn: 19
+AI1 Depth: 30
+AI1 ThinkTime: 1915.6619
+AI2 Turn: 20
+AI2 Depth: 30
+AI2 ThinkTime: 241.0725
+AI1 Turn: 21
+AI1 Depth: 20
+AI1 ThinkTime: 366.9421
+AI2 Turn: 22
+AI2 Depth: 20
+AI1 Turn: 23
+AI1 Depth: 20
+AI2 Turn: 24
+AI2 Depth: 20
+AI1 Turn: 25
+AI1 Depth: 20
+AI2 Turn: 26
+AI2 Depth: 20
+AI1 Turn: 27
+AI1 Depth: 20
+AI2 Turn: 28
+AI2 Depth: 20
+AI1 Turn: 29
+AI1 Depth: 20
+AI2 Turn: 30
+AI2 Depth: 20
+AI1 Turn: 31
+AI1 Depth: 10
+AI2 Turn: 32
+AI2 Depth: 10
+AI1 Turn: 33
+AI1 Depth: 10
+AI2 Turn: 34
+AI2 Depth: 10
+AI1 Turn: 35
+AI1 Depth: 10
+P1 Wins
+AI1 Wins
+GEN firstAI: 0
+AI1 Turn: 1
+AI1 Depth: 9
+AI1 ThinkTime: 403.6177
+AI2 Turn: 2
+AI2 Depth: 9
+AI2 ThinkTime: 1284.1964
+AI1 Turn: 3
+AI1 Depth: 9
+AI1 ThinkTime: 1031.6710
+AI2 Turn: 4
+AI2 Depth: 9
+AI2 ThinkTime: 292.4803
+AI1 Turn: 5
+AI1 Depth: 8
+AI2 Turn: 6
+AI2 Depth: 8
+AI2 ThinkTime: 189.2183
+AI1 Turn: 7
+AI1 Depth: 9
+AI1 ThinkTime: 835.2471
+AI2 Turn: 8
+AI2 Depth: 9
+AI2 ThinkTime: 409.3156
+AI1 Turn: 9
+AI1 Depth: 10
+AI1 ThinkTime: 871.3588
+AI2 Turn: 10
+AI2 Depth: 10
+AI2 ThinkTime: 1615.0856
+AI1 Turn: 11
+AI1 Depth: 11
+AI1 ThinkTime: 1633.8416
+AI2 Turn: 12
+AI2 Depth: 11
+AI2 ThinkTime: 923.8903
+AI1 Turn: 13
+AI1 Depth: 13
+AI1 ThinkTime: 2355.1562
+AI2 Turn: 14
+AI2 Depth: 13
+AI2 ThinkTime: 483.0421
+AI1 Turn: 15
+AI1 Depth: 14
+AI1 ThinkTime: 1346.9287
+AI2 Turn: 16
+AI2 Depth: 14
+AI2 ThinkTime: 639.5849
+AI1 Turn: 17
+AI1 Depth: 17
+AI1 ThinkTime: 2798.0890
+AI2 Turn: 18
+AI2 Depth: 17
+AI2 ThinkTime: 484.7114
+AI1 Turn: 19
+AI1 Depth: 30
+AI1 ThinkTime: 1919.0017
+AI2 Turn: 20
+AI2 Depth: 30
+AI2 ThinkTime: 240.9733
+AI1 Turn: 21
+AI1 Depth: 20
+AI1 ThinkTime: 367.7785
+AI2 Turn: 22
+AI2 Depth: 20
+AI1 Turn: 23
+AI1 Depth: 20
+AI2 Turn: 24
+AI2 Depth: 20
+AI1 Turn: 25
+AI1 Depth: 20
+AI2 Turn: 26
+AI2 Depth: 20
+AI1 Turn: 27
+AI1 Depth: 20
+AI2 Turn: 28
+AI2 Depth: 20
+AI1 Turn: 29
+AI1 Depth: 20
+AI2 Turn: 30
+AI2 Depth: 20
+AI1 Turn: 31
+AI1 Depth: 10
+AI2 Turn: 32
+AI2 Depth: 10
+AI1 Turn: 33
+AI1 Depth: 10
+AI2 Turn: 34
+AI2 Depth: 10
+AI1 Turn: 35
+AI1 Depth: 10
+P1 Wins
+AI1 Wins
+GEN firstAI: 1
+AI2 Turn: 1
+AI2 Depth: 9
+AI2 ThinkTime: 402.4108
+AI1 Turn: 2
+AI1 Depth: 9
+AI1 ThinkTime: 1295.0367
+AI2 Turn: 3
+AI2 Depth: 9
+AI2 ThinkTime: 1029.8094
+AI1 Turn: 4
+AI1 Depth: 9
+AI1 ThinkTime: 293.2555
+AI2 Turn: 5
+AI2 Depth: 8
+AI1 Turn: 6
+AI1 Depth: 8
+AI1 ThinkTime: 189.4132
+AI2 Turn: 7
+AI2 Depth: 9
+AI2 ThinkTime: 828.3570
+AI1 Turn: 8
+AI1 Depth: 9
+AI1 ThinkTime: 399.0748
+AI2 Turn: 9
+AI2 Depth: 10
+AI2 ThinkTime: 881.1534
+AI1 Turn: 10
+AI1 Depth: 10
+AI1 ThinkTime: 1601.6847
+AI2 Turn: 11
+AI2 Depth: 11
+AI2 ThinkTime: 1644.4264
+AI1 Turn: 12
+AI1 Depth: 11
+AI1 ThinkTime: 918.7092
+AI2 Turn: 13
+AI2 Depth: 13
+AI2 ThinkTime: 2371.8547
+AI1 Turn: 14
+AI1 Depth: 13
+AI1 ThinkTime: 483.8726
+AI2 Turn: 15
+AI2 Depth: 14
+AI2 ThinkTime: 1346.7574
+AI1 Turn: 16
+AI1 Depth: 14
+AI1 ThinkTime: 634.7014
+AI2 Turn: 17
+AI2 Depth: 17
+AI2 ThinkTime: 2798.3655
+AI1 Turn: 18
+AI1 Depth: 17
+AI1 ThinkTime: 485.4452
+AI2 Turn: 19
+AI2 Depth: 30
+AI2 ThinkTime: 1929.8430
+AI1 Turn: 20
+AI1 Depth: 30
+AI1 ThinkTime: 241.5887
+AI2 Turn: 21
+AI2 Depth: 20
+AI2 ThinkTime: 367.0628
+AI1 Turn: 22
+AI1 Depth: 20
+AI2 Turn: 23
+AI2 Depth: 20
+AI1 Turn: 24
+AI1 Depth: 20
+AI2 Turn: 25
+AI2 Depth: 20
+AI1 Turn: 26
+AI1 Depth: 20
+AI2 Turn: 27
+AI2 Depth: 20
+AI1 Turn: 28
+AI1 Depth: 20
+AI2 Turn: 29
+AI2 Depth: 20
+AI1 Turn: 30
+AI1 Depth: 20
+AI2 Turn: 31
+AI2 Depth: 10
+AI1 Turn: 32
+AI1 Depth: 10
+AI2 Turn: 33
+AI2 Depth: 10
+AI1 Turn: 34
+AI1 Depth: 10
+AI2 Turn: 35
+AI2 Depth: 10
+P1 Wins
+AI2 Wins
+GEN firstAI: 1
+AI2 Turn: 1
+AI2 Depth: 9
+AI2 ThinkTime: 405.9069
+AI1 Turn: 2
+AI1 Depth: 9
+AI1 ThinkTime: 1275.7022
+AI2 Turn: 3
+AI2 Depth: 9
+AI2 ThinkTime: 1028.2655
+AI1 Turn: 4
+AI1 Depth: 9
+AI1 ThinkTime: 294.3563
+AI2 Turn: 5
+AI2 Depth: 8
+AI1 Turn: 6
+AI1 Depth: 8
+AI1 ThinkTime: 188.9874
+AI2 Turn: 7
+AI2 Depth: 9
+AI2 ThinkTime: 837.2581
+AI1 Turn: 8
+AI1 Depth: 9
+AI1 ThinkTime: 400.8088
+AI2 Turn: 9
+AI2 Depth: 10
+AI2 ThinkTime: 866.5712
+AI1 Turn: 10
+AI1 Depth: 10
+AI1 ThinkTime: 1591.1015
+AI2 Turn: 11
+AI2 Depth: 11
+AI2 ThinkTime: 1627.0297
+AI1 Turn: 12
+AI1 Depth: 11
+AI1 ThinkTime: 918.8120
+AI2 Turn: 13
+AI2 Depth: 13
+AI2 ThinkTime: 2374.2564
+AI1 Turn: 14
+AI1 Depth: 13
+AI1 ThinkTime: 479.9877
+AI2 Turn: 15
+AI2 Depth: 14
+AI2 ThinkTime: 1344.3038
+AI1 Turn: 16
+AI1 Depth: 14
+AI1 ThinkTime: 632.6123
+AI2 Turn: 17
+AI2 Depth: 17
+AI2 ThinkTime: 2812.9004
+AI1 Turn: 18
+AI1 Depth: 17
+AI1 ThinkTime: 494.0690
+AI2 Turn: 19
+AI2 Depth: 30
+AI2 ThinkTime: 1901.9485
+AI1 Turn: 20
+AI1 Depth: 30
+AI1 ThinkTime: 241.3232
+AI2 Turn: 21
+AI2 Depth: 20
+AI2 ThinkTime: 367.5217
+AI1 Turn: 22
+AI1 Depth: 20
+AI2 Turn: 23
+AI2 Depth: 20
+AI1 Turn: 24
+AI1 Depth: 20
+AI2 Turn: 25
+AI2 Depth: 20
+AI1 Turn: 26
+AI1 Depth: 20
+AI2 Turn: 27
+AI2 Depth: 20
+AI1 Turn: 28
+AI1 Depth: 20
+AI2 Turn: 29
+AI2 Depth: 20
+AI1 Turn: 30
+AI1 Depth: 20
+AI2 Turn: 31
+AI2 Depth: 10
+AI1 Turn: 32
+AI1 Depth: 10
+AI2 Turn: 33
+AI2 Depth: 10
+AI1 Turn: 34
+AI1 Depth: 10
+AI2 Turn: 35
+AI2 Depth: 10
+P1 Wins
+AI2 Wins
+GEN firstAI: 0
+AI1 Turn: 1
+AI1 Depth: 9
+AI1 ThinkTime: 402.0650
+AI2 Turn: 2
+AI2 Depth: 9
+AI2 ThinkTime: 1303.0557
+AI1 Turn: 3
+AI1 Depth: 9
+AI1 ThinkTime: 1030.2847
+AI2 Turn: 4
+AI2 Depth: 9
+AI2 ThinkTime: 293.3304
+AI1 Turn: 5
+AI1 Depth: 8
+AI2 Turn: 6
+AI2 Depth: 8
+AI2 ThinkTime: 189.1147
+AI1 Turn: 7
+AI1 Depth: 9
+AI1 ThinkTime: 824.4861
+AI2 Turn: 8
+AI2 Depth: 9
+AI2 ThinkTime: 398.6395
+AI1 Turn: 9
+AI1 Depth: 10
+AI1 ThinkTime: 882.1031
+AI2 Turn: 10
+AI2 Depth: 10
+AI2 ThinkTime: 1608.2811
+AI1 Turn: 11
+AI1 Depth: 11
+AI1 ThinkTime: 1641.0526
+AI2 Turn: 12
+AI2 Depth: 11
+AI2 ThinkTime: 921.7837
+AI1 Turn: 13
+AI1 Depth: 13
+AI1 ThinkTime: 2369.6928
+AI2 Turn: 14
+AI2 Depth: 13
+AI2 ThinkTime: 483.9832
+AI1 Turn: 15
+AI1 Depth: 14
+AI1 ThinkTime: 1356.8169
+AI2 Turn: 16
+AI2 Depth: 14
+AI2 ThinkTime: 633.5127
+AI1 Turn: 17
+AI1 Depth: 17
+AI1 ThinkTime: 2791.9079
+AI2 Turn: 18
+AI2 Depth: 17
+AI2 ThinkTime: 484.8396
+AI1 Turn: 19
+AI1 Depth: 30
+AI1 ThinkTime: 1904.4700
+AI2 Turn: 20
+AI2 Depth: 30
+AI2 ThinkTime: 244.1515
+AI1 Turn: 21
+AI1 Depth: 20
+AI1 ThinkTime: 377.8015
+AI2 Turn: 22
+AI2 Depth: 20
+AI1 Turn: 23
+AI1 Depth: 20
+AI2 Turn: 24
+AI2 Depth: 20
+AI1 Turn: 25
+AI1 Depth: 20
+AI2 Turn: 26
+AI2 Depth: 20
+AI1 Turn: 27
+AI1 Depth: 20
+AI2 Turn: 28
+AI2 Depth: 20
+AI1 Turn: 29
+AI1 Depth: 20
+AI2 Turn: 30
+AI2 Depth: 20
+AI1 Turn: 31
+AI1 Depth: 10
+AI2 Turn: 32
+AI2 Depth: 10
+AI1 Turn: 33
+AI1 Depth: 10
+AI2 Turn: 34
+AI2 Depth: 10
+AI1 Turn: 35
+AI1 Depth: 10
+P1 Wins
+AI1 Wins
+GEN firstAI: 0
+AI1 Turn: 1
+AI1 Depth: 9
+AI1 ThinkTime: 402.9131
+AI2 Turn: 2
+AI2 Depth: 9
+AI2 ThinkTime: 1277.8385
+AI1 Turn: 3
+AI1 Depth: 9
+AI1 ThinkTime: 1031.5840
+AI2 Turn: 4
+AI2 Depth: 9
+AI2 ThinkTime: 296.3100
+AI1 Turn: 5
+AI1 Depth: 8
+AI2 Turn: 6
+AI2 Depth: 8
+AI2 ThinkTime: 189.3357
+AI1 Turn: 7
+AI1 Depth: 9
+AI1 ThinkTime: 831.7955
+AI2 Turn: 8
+AI2 Depth: 9
+AI2 ThinkTime: 411.0480
+AI1 Turn: 9
+AI1 Depth: 10
+AI1 ThinkTime: 881.2148
+AI2 Turn: 10
+AI2 Depth: 10
+AI2 ThinkTime: 1622.7369
+AI1 Turn: 11
+AI1 Depth: 11
+AI1 ThinkTime: 1657.1253
+AI2 Turn: 12
+AI2 Depth: 11
+AI2 ThinkTime: 929.7451
+AI1 Turn: 13
+AI1 Depth: 13
+AI1 ThinkTime: 2377.1351
+AI2 Turn: 14
+AI2 Depth: 13
+AI2 ThinkTime: 477.4914
+AI1 Turn: 15
+AI1 Depth: 14
+AI1 ThinkTime: 1365.1904
+AI2 Turn: 16
+AI2 Depth: 14
+AI2 ThinkTime: 649.2536
+AI1 Turn: 17
+AI1 Depth: 17
+AI1 ThinkTime: 2810.5921
+AI2 Turn: 18
+AI2 Depth: 17
+AI2 ThinkTime: 491.1768
+AI1 Turn: 19
+AI1 Depth: 30
+AI1 ThinkTime: 1928.4117
+AI2 Turn: 20
+AI2 Depth: 30
+AI2 ThinkTime: 242.9015
+AI1 Turn: 21
+AI1 Depth: 20
+AI1 ThinkTime: 367.8081
+AI2 Turn: 22
+AI2 Depth: 20
+AI1 Turn: 23
+AI1 Depth: 20
+AI2 Turn: 24
+AI2 Depth: 20
+AI1 Turn: 25
+AI1 Depth: 20
+AI2 Turn: 26
+AI2 Depth: 20
+AI1 Turn: 27
+AI1 Depth: 20
+AI2 Turn: 28
+AI2 Depth: 20
+AI1 Turn: 29
+AI1 Depth: 20
+AI2 Turn: 30
+AI2 Depth: 20
+AI1 Turn: 31
+AI1 Depth: 10
+AI2 Turn: 32
+AI2 Depth: 10
+AI1 Turn: 33
+AI1 Depth: 10
+AI2 Turn: 34
+AI2 Depth: 10
+AI1 Turn: 35
+AI1 Depth: 10
+P1 Wins
+AI1 Wins
+GEN firstAI: 1
+AI2 Turn: 1
+AI2 Depth: 9
+AI2 ThinkTime: 402.8131
+AI1 Turn: 2
+AI1 Depth: 9
+AI1 ThinkTime: 1302.2413
+AI2 Turn: 3
+AI2 Depth: 9
+AI2 ThinkTime: 1047.0471
+AI1 Turn: 4
+AI1 Depth: 9
+AI1 ThinkTime: 296.8991
+AI2 Turn: 5
+AI2 Depth: 8
+AI1 Turn: 6
+AI1 Depth: 8
+AI1 ThinkTime: 194.4565
+AI2 Turn: 7
+AI2 Depth: 9
+AI2 ThinkTime: 837.0995
+AI1 Turn: 8
+AI1 Depth: 9
+AI1 ThinkTime: 401.8798
+AI2 Turn: 9
+AI2 Depth: 10
+AI2 ThinkTime: 866.8756
+AI1 Turn: 10
+AI1 Depth: 10
+AI1 ThinkTime: 1607.8448
+AI2 Turn: 11
+AI2 Depth: 11
+AI2 ThinkTime: 1628.5089
+AI1 Turn: 12
+AI1 Depth: 11
+AI1 ThinkTime: 935.8997
+AI2 Turn: 13
+AI2 Depth: 13
+AI2 ThinkTime: 2377.7205
+AI1 Turn: 14
+AI1 Depth: 13
+AI1 ThinkTime: 481.3570
+AI2 Turn: 15
+AI2 Depth: 14
+AI2 ThinkTime: 1344.9626
+AI1 Turn: 16
+AI1 Depth: 14
+AI1 ThinkTime: 636.0393
+AI2 Turn: 17
+AI2 Depth: 17
+AI2 ThinkTime: 2810.5413
+AI1 Turn: 18
+AI1 Depth: 17
+AI1 ThinkTime: 495.0585
+AI2 Turn: 19
+AI2 Depth: 30
+AI2 ThinkTime: 1931.9139
+AI1 Turn: 20
+AI1 Depth: 30
+AI1 ThinkTime: 246.0800
+AI2 Turn: 21
+AI2 Depth: 20
+AI2 ThinkTime: 370.9944
+AI1 Turn: 22
+AI1 Depth: 20
+AI2 Turn: 23
+AI2 Depth: 20
+AI1 Turn: 24
+AI1 Depth: 20
+AI2 Turn: 25
+AI2 Depth: 20
+AI1 Turn: 26
+AI1 Depth: 20
+AI2 Turn: 27
+AI2 Depth: 20
+AI1 Turn: 28
+AI1 Depth: 20
+AI2 Turn: 29
+AI2 Depth: 20
+AI1 Turn: 30
+AI1 Depth: 20
+AI2 Turn: 31
+AI2 Depth: 10
+AI1 Turn: 32
+AI1 Depth: 10
+AI2 Turn: 33
+AI2 Depth: 10
+AI1 Turn: 34
+AI1 Depth: 10
+AI2 Turn: 35
+AI2 Depth: 10
+P1 Wins
+AI2 Wins
+GEN firstAI: 0
+AI1 Turn: 1
+AI1 Depth: 9
+AI1 ThinkTime: 401.4285
+AI2 Turn: 2
+AI2 Depth: 9
+AI2 ThinkTime: 1275.8203
+AI1 Turn: 3
+AI1 Depth: 9
+AI1 ThinkTime: 1025.5536
+AI2 Turn: 4
+AI2 Depth: 9
+AI2 ThinkTime: 293.1218
+AI1 Turn: 5
+AI1 Depth: 8
+AI2 Turn: 6
+AI2 Depth: 8
+AI2 ThinkTime: 199.0568
+AI1 Turn: 7
+AI1 Depth: 9
+AI1 ThinkTime: 835.2704
+AI2 Turn: 8
+AI2 Depth: 9
+AI2 ThinkTime: 400.8484
+AI1 Turn: 9
+AI1 Depth: 10
+AI1 ThinkTime: 868.8530
+AI2 Turn: 10
+AI2 Depth: 10
+AI2 ThinkTime: 1598.3212
+AI1 Turn: 11
+AI1 Depth: 11
+AI1 ThinkTime: 1655.0496
+AI2 Turn: 12
+AI2 Depth: 11
+AI2 ThinkTime: 928.5715
+AI1 Turn: 13
+AI1 Depth: 13
+AI1 ThinkTime: 2364.1566
+AI2 Turn: 14
+AI2 Depth: 13
+AI2 ThinkTime: 487.0056
+AI1 Turn: 15
+AI1 Depth: 14
+AI1 ThinkTime: 1349.7590
+AI2 Turn: 16
+AI2 Depth: 14
+AI2 ThinkTime: 639.3437
+AI1 Turn: 17
+AI1 Depth: 17
+AI1 ThinkTime: 2807.2999
+AI2 Turn: 18
+AI2 Depth: 17
+AI2 ThinkTime: 489.3195
+AI1 Turn: 19
+AI1 Depth: 30
+AI1 ThinkTime: 1987.5588
+AI2 Turn: 20
+AI2 Depth: 30
+AI2 ThinkTime: 243.9744
+AI1 Turn: 21
+AI1 Depth: 20
+AI1 ThinkTime: 373.3847
+AI2 Turn: 22
+AI2 Depth: 20
+AI1 Turn: 23
+AI1 Depth: 20
+AI2 Turn: 24
+AI2 Depth: 20
+AI1 Turn: 25
+AI1 Depth: 20
+AI2 Turn: 26
+AI2 Depth: 20
+AI1 Turn: 27
+AI1 Depth: 20
+AI2 Turn: 28
+AI2 Depth: 20
+AI1 Turn: 29
+AI1 Depth: 20
+AI2 Turn: 30
+AI2 Depth: 20
+AI1 Turn: 31
+AI1 Depth: 10
+AI2 Turn: 32
+AI2 Depth: 10
+AI1 Turn: 33
+AI1 Depth: 10
+AI2 Turn: 34
+AI2 Depth: 10
+AI1 Turn: 35
+AI1 Depth: 10
+P1 Wins
+AI1 Wins
+GEN firstAI: 1
+AI2 Turn: 1
+AI2 Depth: 9
+AI2 ThinkTime: 401.9257
+AI1 Turn: 2
+AI1 Depth: 9
+AI1 ThinkTime: 1285.5855
+AI2 Turn: 3
+AI2 Depth: 9
+AI2 ThinkTime: 1028.3498
+AI1 Turn: 4
+AI1 Depth: 9
+AI1 ThinkTime: 290.2886
+AI2 Turn: 5
+AI2 Depth: 8
+AI1 Turn: 6
+AI1 Depth: 8
+AI1 ThinkTime: 188.5831
+AI2 Turn: 7
+AI2 Depth: 9
+AI2 ThinkTime: 824.7782
+AI1 Turn: 8
+AI1 Depth: 9
+AI1 ThinkTime: 409.1802
+AI2 Turn: 9
+AI2 Depth: 10
+AI2 ThinkTime: 882.4467
+AI1 ThinkTime: 1583.5266

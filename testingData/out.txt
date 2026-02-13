@@ -1,0 +1,38 @@
+
+AI1 ThinkTime Count: 125
+AI1 ThinkTime Mean: 1049.01
+AI1 ThinkTime Median: 868.853
+AI1 ThinkTime Min: 185.04
+AI1 ThinkTime Max: 2818.91
+AI1 ThinkTime Mode: 185.04
+AI1 ThinkTime StandardDeviation: 738.354
+
+
+AI1 Wins Count: 5
+
+
+AI2 ThinkTime Count: 124
+AI2 ThinkTime Mean: 944.155
+AI2 ThinkTime Median: 832.728
+AI2 ThinkTime Min: 189.115
+AI2 ThinkTime Max: 2812.9
+AI2 ThinkTime Mode: 189.115
+AI2 ThinkTime StandardDeviation: 689.405
+
+
+AI2 Wins Count: 4
+
+
+
+GEN firstAI Count: 10
+GEN firstAI Mean: 0.5
+GEN firstAI Median: 0.5
+GEN firstAI Min: 0
+GEN firstAI Max: 1
+GEN firstAI Mode: 0
+GEN firstAI StandardDeviation: 0.5
+
+
+P1 Wins Count: 9
+
+
