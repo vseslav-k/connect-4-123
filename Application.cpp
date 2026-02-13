@@ -12,7 +12,7 @@ namespace ClassGame {
         Game *game = nullptr;
         bool gameOver = false;
         int gameWinner = -1;
-        int aiPlayerNumber = 1;
+        int aiStatus = 2;
         //
         // game starting point
         // this is called by the main render loop in main.cpp
@@ -20,6 +20,16 @@ namespace ClassGame {
         void GameStartUp() 
         {
             game = nullptr;
+        }
+
+        const char* dispAIPlayerStatus(int status){
+            switch(status){
+                case 0 : return "AI Player: None";
+                case 1 : return "AI Player: 1";
+                case 2 : return "AI Player: 2";
+                case 3 : return "AI Player: Both";
+            }
+            return "AI Player: ERROR!";
         }
 
         //
@@ -56,15 +66,12 @@ namespace ClassGame {
                     }
                     ImGui::SameLine();
                     if (ImGui::Button("Start Connect4")) {
-                        game = new Connect4(aiPlayerNumber);
+                        game = new Connect4(aiStatus);
                         game->setUpBoard();
                     }
                     
-                    if (ImGui::Button(
-                        aiPlayerNumber == -1? "AI Player: -1": ((aiPlayerNumber == 0? "AI Player: 1": "AI Player: 2"))
-                    )) {
-                        aiPlayerNumber++;
-                        if(aiPlayerNumber == 2) aiPlayerNumber =-1;
+                    if (ImGui::Button(dispAIPlayerStatus(aiStatus))) {
+                        aiStatus = (aiStatus+1) % 4;
                     }
 
 

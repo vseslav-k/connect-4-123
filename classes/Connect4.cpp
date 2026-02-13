@@ -1,8 +1,13 @@
 #include "Connect4.h"
 #include "C:\Libraries\imgui\Timer\Timer.h"
+#include <random>
 Timer timer = Timer();
 
-
+inline bool random01() {
+    static thread_local std::mt19937 rng{std::random_device{}()};
+    static thread_local std::uniform_int_distribution<int> dist(0, 1);
+    return dist(rng);
+}
 
 
 //depends on logger
@@ -32,10 +37,7 @@ Connect4::Connect4(int aiPlayer){
     _board.pieces[RED] = 0;
     _board.pieces[YELLOW] = 0;
 
-    std::array<int, 42> heatmap = makeHeatMap(WINNING_PATTERNS.data(), WINNING_PATTERNS.size());
-    std::string heatmapStr = ptrToStr(heatmap.data(), heatmap.size(), numToStr, " ");
-
-    log(Debug, heatmapStr);
+    ai2GoesFirst = random01();
     
 }
 Connect4::~Connect4(){
@@ -45,8 +47,13 @@ Connect4::~Connect4(){
 
 void Connect4::setUpBoard() {
     setNumberOfPlayers(2);
-    if(aiPlayer != -1)
-        setAIPlayer(aiPlayer);
+    if(aiPlayer == 1 || aiPlayer == 2)
+        setAIPlayer(aiPlayer-1);
+    if(aiPlayer == 3){
+        setAIPlayer(0);
+        setAIPlayer(1);
+        _gameOptions.AIvsAI = true;
+    }
     
     _gameOptions.rowX = 7;
     _gameOptions.rowY = 6;
@@ -84,8 +91,11 @@ std::string Connect4::stateString(){
 }
 
 bool Connect4::actionForEmptyHolder(BitHolder &holder){
+
+
     if (holder.bit())
         return false;
+
 
     if(!isLowest(holder)){
         std::pair<int, int> cords = getHolderCords(holder);
@@ -100,9 +110,6 @@ bool Connect4::actionForEmptyHolder(BitHolder &holder){
         bit->setPosition(holder.getPosition());
         holder.setBit(bit);
         setBitInPlace(_board.pieces[getCurrentPlayer()->playerNumber()], cordsGridToBoard(getHolderCords(holder)), true);
-        //log(Debug, numToStr(cordsGridToBoard(getHolderCords(holder))));
-        //log(Error, "RED: "+numToStrBin(_board.pieces[RED]));
-       //log(Warn, "YEL: "+numToStrBin(_board.pieces[YELLOW]));
         endTurn();
         return true;
     }
@@ -115,11 +122,29 @@ void Connect4::stopGame(){
     });
     _board.pieces[RED] = 0;
     _board.pieces[YELLOW] = 0;
+    ai2GoesFirst = random01();
 }
 
 
 void Connect4::updateAI(){
-    if(aiPlayer != getCurrentPlayer()->playerNumber()) return;
+
+    if(checkForWinner() || checkForDraw()) return;
+
+    
+    bool me = currPlayer();
+
+    log(Debug, "aiPlayer "+numToStr(aiPlayer));
+    log(Debug, "ai2GoesFirst "+numToStr(static_cast<int>(ai2GoesFirst)));
+    log(Debug, "me "+numToStr(static_cast<int>(me)));
+
+    if(aiPlayer == 3 && ai2GoesFirst && me == 0){
+        updateAI2();
+        return;
+    }
+
+    //log(Debug, "AI Player's turn? " + numToStr(static_cast<int>(me == aiPlayer)));
+
+    if(me != getCurrentPlayer()->playerNumber()) return;
 
     int bestMoveIdx = -1;
 
@@ -129,15 +154,16 @@ void Connect4::updateAI(){
     int d = DEPTH_AT_TURN[(this->_turns.size()-1)/2];
 
 
+
     log(Debug, "Turn: " + numToStr(this->_turns.size()));
     log(Debug, "Depth: " + numToStr(d));
     timer.setPt("AI Thinking Start");
     for(int i = 0; i < 42; ++i){
         if(!moveIsLegal((_board.pieces[RED] | _board.pieces[YELLOW]), i)) continue;
 
-        setBitInPlace(_board.pieces[aiPlayer], i, true);
-        res = -negamax(static_cast<Color>(!aiPlayer), -MATE, MATE, d);
-        setBitInPlace(_board.pieces[aiPlayer], i, false);
+        setBitInPlace(_board.pieces[me], i, true);
+        res = -negamax(static_cast<Color>(!me), -MATE, MATE, d);
+        setBitInPlace(_board.pieces[me], i, false);
 
         if(res > bestScore){
             bestScore = res;
@@ -180,8 +206,6 @@ int Connect4::negamax(const Color player, int a, const int b, const int d){
         return 0;
     }
     */
-
-
     if(d <= 0){
         return evalBoardState(_board, player);
     }
@@ -235,7 +259,7 @@ int Connect4::evalBoardState(const Board& board, const Color color) const{
 }
 
 
-
+#include "Connect4Bot2.h"
 
 
 bool Connect4::boardIsFull() const{

@@ -191,14 +191,23 @@ private:
 
 
     int         negamax(const Color player, int a = -MATE, const int b = MATE, const int d = 8);
+
+    bool        currPlayer(){return _turns.size() % 2 == 0;}
     
     static std::pair<int, int> cordsBoardToGrid(int boardIdx);
     static int                 cordsGridToBoard(std::pair<int, int> gridCords);
     static std::array<int, 42> makeHeatMap(const uint64_t *arr, const int len);
 
+    void        updateAI2();
+    int         negamax2(const Color player, int a = -MATE, const int b = MATE, const int d = 8);
+    int         assessWinPattern2(const Board& board, const Color color, const int patternIdx) const;
+    int         evalBoardState2(const Board& board, const Color color) const;
+
+
 
 
     int aiPlayer;
+    bool ai2GoesFirst;
     Grid*       _grid;
     Board _board;
 
