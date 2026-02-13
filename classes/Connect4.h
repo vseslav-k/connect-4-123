@@ -44,7 +44,7 @@ inline constexpr std::array<uint64_t, 69> calcWinningPatterns(){
 }
 
 
- inline constexpr std::array<uint64_t, 19> makeUtilPatterns(){
+inline constexpr std::array<uint64_t, 19> makeUtilPatterns(){
     std::array<uint64_t, 19> utilPatterns{};
 
     utilPatterns[0] = 0ULL;
@@ -69,7 +69,7 @@ inline constexpr std::array<uint64_t, 69> calcWinningPatterns(){
     return utilPatterns;
  }
 
-inline uint64_t setBit(uint64_t x, unsigned pos, bool value) {
+inline uint64_t setBit(uint64_t x, const unsigned int pos, const bool value) {
     if (pos >= 64) {
         log(Error, "Bit position out of range");
         return x;
@@ -87,7 +87,7 @@ inline uint64_t setBit(uint64_t x, unsigned pos, bool value) {
     return x;
 }
 
-inline void setBitInPlace(uint64_t& x, unsigned pos, bool value) {
+inline void setBitInPlace(uint64_t& x, const unsigned int pos, const bool value) {
     if (pos >= 64) {
         log(Error, "Bit position out of range");
         return;
@@ -99,7 +99,8 @@ inline void setBitInPlace(uint64_t& x, unsigned pos, bool value) {
 
     x = (x & ~mask) | (static_cast<uint64_t>(value) << shift);
 }
-inline int getBit(uint64_t x, unsigned pos) {
+
+inline int getBit(uint64_t x, const unsigned int pos) {
     if (pos >= 64) {
         log(Error, "Bit position out of range");
         return 0;
@@ -145,60 +146,59 @@ public:
 
     void        setUpBoard() override;
     Player*     checkForWinner() override;
-    bool        comboWon(const uint64_t piecies) const;
-
     bool        checkForDraw() override;
+
     std::string initialStateString() override;
     std::string stateString() override ;
-    void        setStateString(const std::string &s) override;
+    void        setStateString(const std::string &s) override{}
+
     bool        actionForEmptyHolder(BitHolder &holder) override;
-    bool        canBitMoveFrom(Bit &bit, BitHolder &src) override;
-    bool        canBitMoveFromTo(Bit &bit, BitHolder &src, BitHolder &dst) override;
+    bool        canBitMoveFrom(Bit &bit, BitHolder &src) override{return false;}
+    bool        canBitMoveFromTo(Bit &bit, BitHolder &src, BitHolder &dst) override{return false;}
     void        stopGame() override;
 
      // AI methods
     void        updateAI() override;
     bool        gameHasAI() override  { return aiPlayer != -1; } // Set to true when AI is implemented
-    Grid* getGrid() override final { return _grid; }
+    Grid*       getGrid() override final { return _grid; }
 private:
 
     static constexpr std::array<uint64_t, 69> WINNING_PATTERNS = calcWinningPatterns();
     static constexpr std::array<uint64_t, 19> UTIL_PATTERNS = makeUtilPatterns();
-
     static constexpr std::array<uint8_t, 42> SORTED_CELL_VALUES = {24, 17, 23, 25, 16, 18, 31, 10, 22, 26, 30, 32, 9, 11, 15, 19, 38, 3, 29, 33, 8, 12, 21, 27, 37, 39, 2, 4, 14, 20, 28, 34, 36, 40, 1, 5, 7, 13, 35, 41, 0, 6};
-
     //                                         idx pairs:    1-2 3-4 5-6 7-8 9-10 11-12 13-14 15-16 17-18 19-20 21-22 23-24 25-26 27-28 29-30 31-32 33-34 35-36 37-38 39-40 41-42
-    //                                     max calc left: 41  39  37  35  33  31    29    27    25    23    21    19    17    15    13    11    9     7     5     3     1
-    static constexpr std::array<uint8_t, 42> DEPTH_AT_TURN = {9,  9,  8,  9,  10,  12,   13,   14,   17,   30,   20,   20,   20,   20,   20,   10,   10,   10,   10,   10,  10};
+    //                                     max calc left:    41  39  37  35   33   31    29    27    25    23    21    19    17    15    13    11     9     7     5     3     1   
+    static constexpr std::array<uint8_t, 42> DEPTH_AT_TURN = {9,  9,  8,  9,  10,  11,   13,   14,   17,   30,   20,   20,   20,   20,   20,   10,   10,   10,   10,   10,  10};
+    static constexpr int32_t MATE = 99999;
 
+    Bit*                PieceForPlayer(int player);
 
-
-    static constexpr int32_t MATE = 9999;
-
-    bool isLowest(const BitHolder &holder) const;
-
+    bool                isLowest(const BitHolder &holder) const;
     std::pair<int, int> getHolderCords(const BitHolder &holder) const;
-
-    Bit* PieceForPlayer(int player);
-
-    int assessWinPattern(const Board& board, const Color color, const int patternIdx) const;
-    int evalBoardState(const Board& board, const Color color) const;
-
-    std::pair<int, int> cordsBoardToGrid(int boardIdx);
-    int cordsGridToBoard(std::pair<int, int> gridCords);
-
-
-    int negamax(const Color player, int a = -MATE, const int b = MATE, const int d = 8);
     
-    int legalMoveInCol(int col);
-    bool moveIsLegal(const uint64_t board, const int i) const;
-    bool boardIsFull();
 
+
+
+    bool        comboWon(const uint64_t piecies) const;
+    bool        boardIsFull() const;
+    bool        moveIsLegal(const uint64_t board, const int i) const;
+    bool        forcedToPlay(const Color& col, int idx) const;
+
+
+
+    int         assessWinPattern(const Board& board, const Color color, const int patternIdx) const;
+    int         evalBoardState(const Board& board, const Color color) const;
+
+
+    int         negamax(const Color player, int a = -MATE, const int b = MATE, const int d = 8);
+    
+    static std::pair<int, int> cordsBoardToGrid(int boardIdx);
+    static int                 cordsGridToBoard(std::pair<int, int> gridCords);
     static std::array<int, 42> makeHeatMap(const uint64_t *arr, const int len);
 
-    int aiPlayer;
 
-    // Board representation
+
+    int aiPlayer;
     Grid*       _grid;
     Board _board;
 
