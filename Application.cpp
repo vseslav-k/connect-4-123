@@ -13,6 +13,7 @@ namespace ClassGame {
         bool gameOver = false;
         int gameWinner = -1;
         int aiStatus = 2;
+        unsigned int sessions = 0;
         //
         // game starting point
         // this is called by the main render loop in main.cpp
@@ -32,6 +33,12 @@ namespace ClassGame {
             return "AI Player: ERROR!";
         }
 
+        void getSessions(){
+            ImGui::SameLine();
+            ImGui::InputScalar("Training Sessions", ImGuiDataType_U32, &sessions);
+            sessions = std::max(0U, sessions);
+        }
+
         //
         // game render loop
         // this is called by the main render loop in main.cpp
@@ -45,8 +52,19 @@ namespace ClassGame {
                 ImGui::Begin("Settings");
 
                 if (gameOver) {
-                    ImGui::Text("Game Over!");
+                    ImGui::Text("Game Over! ");
+                    ImGui::SameLine();
                     ImGui::Text("Winner: %d", gameWinner);
+                }
+                if (sessions) {
+                    ImGui::Text("Sessions Left: %d", sessions);
+                }
+                if(gameOver && sessions > 0){
+                        --sessions;
+                        game->stopGame();
+                        game->setUpBoard();
+                        gameOver = false;
+                        gameWinner = -1;
                 }
                 
                 if (!game) {
@@ -72,6 +90,11 @@ namespace ClassGame {
                     
                     if (ImGui::Button(dispAIPlayerStatus(aiStatus))) {
                         aiStatus = (aiStatus+1) % 4;
+                    }
+                    if(aiStatus == 3){
+                        getSessions();
+                    }else{
+                        sessions = 0;
                     }
 
 

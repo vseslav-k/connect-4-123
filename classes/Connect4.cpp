@@ -36,7 +36,7 @@ Connect4::Connect4(int aiPlayer){
     _grid = new Grid(7,6);
     _board.pieces[RED] = 0;
     _board.pieces[YELLOW] = 0;
-
+    
     ai2GoesFirst = random01();
     
 }
@@ -113,6 +113,7 @@ bool Connect4::actionForEmptyHolder(BitHolder &holder){
         endTurn();
         return true;
     }
+    
     return false;
 }
 
@@ -133,11 +134,13 @@ void Connect4::updateAI(){
     
     bool me = currPlayer();
 
-    log(Debug, "aiPlayer "+numToStr(aiPlayer));
-    log(Debug, "ai2GoesFirst "+numToStr(static_cast<int>(ai2GoesFirst)));
-    log(Debug, "me "+numToStr(static_cast<int>(me)));
+
 
     if(aiPlayer == 3 && ai2GoesFirst && me == 0){
+        updateAI2();
+        return;
+    }
+    if(aiPlayer == 3 && !ai2GoesFirst && me == 1){
         updateAI2();
         return;
     }

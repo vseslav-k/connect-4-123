@@ -207,6 +207,7 @@ private:
 
 
     int aiPlayer;
+    int sessions;
     bool ai2GoesFirst;
     Grid*       _grid;
     Board _board;
