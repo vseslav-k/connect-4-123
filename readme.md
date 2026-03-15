@@ -1,11 +1,11 @@
-Using the provided code that can be downloaded from this github add a new class that inherits from game.cpp in the same way TicTacToe.cpp does and implement a working version of the game Connect 4. The game should be added as a fourth choice from the menu so the choices are Tic Tac Toe, Checkers, Othello and now Connect 4.
+My implementation uses the 69-win combos for eval board state and win detection function. I chose to use this method because I noticed that it provides a much more accurate eval function and allows for trap detection.
 
-The game must be playable by both by 2 people and vs. an AI. Your implementation must check for the winning condition, and display that on the right hand side the same way the current setup does for tic-tac-toe. The stopGame() method is expected to clean up and delete any memory allocated.
+Speaking of trap detection, my AI detects these two types of traps:
+1. parity traps, if the enemy will eventually be forced to play a stone into a spot right below your 3 combo, allowing you to complete it to 4. The program does this through even-odd parity calculations
+2. The program also detects stack traps. This is when two 3-combos have their missing piece in the same column. This means that eventually the enemy will be forced to play into that column to prevent you from completing the first pattern, allowing you to immediately complete the second.
 
-Look at the new Grid.cpp class and see how it is used in Checkers.cpp for a good understanding about laying out a useable grid.
+By including these types of traps into its eval mechanism, the program can both  set up and avoid these traps
 
-For extra credit, when a game piece is added to the board, make it animate into place instead of just appearing in it's final spot.
+The program also uses a primitive version of iterative deepening. This is implemented through an array of 42 integers, each represeting search depth at that turn.
 
-Graphic files are provided for the game pieces called yellow.png and red.png.
-
-For the submission, create a new github based on the above code-base and provide a link to that along with a complete readme.md on how your implementation works.
+The program uses transposition tables with hashing to avoid recalculating known moves.
