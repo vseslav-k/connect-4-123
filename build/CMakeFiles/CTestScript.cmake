@@ -2,11 +2,11 @@
 # If you choose not to use CMake, this file may be hand configured, by
 # filling in the required variables.
 
-cmake_minimum_required(VERSION 4.2.2)
+cmake_minimum_required(VERSION 4.2.1)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "C:/Users/vsesl/Documents/UCSC/CMPM123/connect-4-123")
-set(CTEST_BINARY_DIRECTORY "C:/Users/vsesl/Documents/UCSC/CMPM123/connect-4-123/build")
+set(CTEST_SOURCE_DIRECTORY "C:/Users/vsesl/OneDrive/Documents/CMPM123/connect-4-123")
+set(CTEST_BINARY_DIRECTORY "C:/Users/vsesl/OneDrive/Documents/CMPM123/connect-4-123/build")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "C:/Program Files/Git/cmd/git.exe")
@@ -37,12 +37,12 @@ set(CTEST_P4_UPDATE_CUSTOM "")
 set(CTEST_P4_UPDATE_OPTIONS "")
 
 # CTest Configure Step
-set(CTEST_CMAKE_GENERATOR "Visual Studio 18 2026")
+set(CTEST_CMAKE_GENERATOR "Ninja")
 set(CTEST_LABELS_FOR_SUBPROJECTS "")
 
 # CTest Build Step
 set(CTEST_CONFIGURATION_TYPE "Release")
-set(CTEST_USE_LAUNCHERS "0")
+set(CTEST_USE_LAUNCHERS "")
 
 # CTest Test Step
 set(CTEST_RESOURCE_SPEC_FILE "")
@@ -61,8 +61,8 @@ set(CTEST_MEMORYCHECK_SANITIZER_OPTIONS "")
 set(CTEST_MEMORYCHECK_SUPPRESSIONS_FILE "")
 
 # CTest Submit Step
-set(CTEST_SITE "VSDESKTOP")
-set(CTEST_BUILD_NAME "Win32-MSBuild")
+set(CTEST_SITE "laptop14")
+set(CTEST_BUILD_NAME "Win32-ninja")
 set(CTEST_SUBMIT_URL "http://")
 set(CTEST_SUBMIT_INACTIVITY_TIMEOUT "")
 set(CTEST_TLS_VERIFY "")

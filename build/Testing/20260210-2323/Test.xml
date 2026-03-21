@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Site BuildName="Win32-MSBuild"
+<Site BuildName="Win32-ninja"
 	BuildStamp="20260210-2323-Experimental"
-	Name="VSDESKTOP"
-	Generator="ctest-4.2.2"
+	Name="laptop14"
+	Generator="ctest-4.2.1"
 	CompilerName="C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe"
-	CompilerVersion="19.50.35722.0"
+	CompilerVersion="19.50.35721.0"
 	OSName="Windows"
-	Hostname="VSDESKTOP"
-	OSRelease="10.0.26200"
+	Hostname="laptop14"
+	OSRelease="10.0.26100"
 	OSVersion="Windows 10"
 	OSPlatform="AMD64"
 	Is64Bits="1"
-	VendorString="AuthenticAMD"
-	VendorID="Advanced Micro Devices"
-	FamilyID="15"
-	ModelID="1"
-	ModelName="AMD Ryzen 7 7800X3D 8-Core Processor"
-	ProcessorCacheSize="64"
-	NumberOfLogicalCPU="16"
-	NumberOfPhysicalCPU="8"
-	TotalVirtualMemory="37568"
-	TotalPhysicalMemory="32448"
-	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="4201"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ModelName=""
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="22"
+	NumberOfPhysicalCPU="16"
+	TotalVirtualMemory="29564"
+	TotalPhysicalMemory="15740"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="1400"
 	>
 	<Testing>
-		<StartDateTime>Feb 13 14:52 Pacific Standard Time</StartDateTime>
-		<StartTestTime>1771023130</StartTestTime>
+		<StartDateTime>Mar 21 00:33 Pacific Daylight Time</StartDateTime>
+		<StartTestTime>1774078425</StartTestTime>
 		<TestList/>
-		<EndDateTime>Feb 13 14:52 Pacific Standard Time</EndDateTime>
-		<EndTestTime>1771023130</EndTestTime>
+		<EndDateTime>Mar 21 00:33 Pacific Daylight Time</EndDateTime>
+		<EndTestTime>1774078425</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

@@ -1,0 +1,25 @@
+# ninja log v6
+96	719	7957813234583372	CMakeFiles/demo.dir/classes/BitHolder.cpp.obj	de4eb7119d55cbd8
+68	1228	7957813234312347	CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.obj	dc60bca855333872
+122	487	7957813234843081	CMakeFiles/demo.dir/classes/Square.cpp.obj	611f23968c4d4a6
+87	640	7957813234498120	CMakeFiles/demo.dir/classes/Bit.cpp.obj	8c80d19320504f20
+131	1607	7957813234941794	CMakeFiles/demo.dir/classes/ChessSquare.cpp.obj	3c2df6b30bac5a36
+198	1079	7957813235615711	CMakeFiles/demo.dir/imgui/imgui_impl_win32.cpp.obj	c848d7bf26105092
+52	1182	7957813234141373	CMakeFiles/demo.dir/imgui/imgui_draw.cpp.obj	b593a8af4497b1e6
+59	1406	7957813234221933	CMakeFiles/demo.dir/imgui/imgui_tables.cpp.obj	4eb7b898596e61af
+45	1232	7957813234081363	CMakeFiles/demo.dir/imgui/imgui_demo.cpp.obj	6174330dbd1b3de3
+184	1520	7957813235470886	CMakeFiles/demo.dir/imgui/imgui_impl_dx11.cpp.obj	1552b31e2af9936
+140	1860	7957813235020912	CMakeFiles/demo.dir/classes/Grid.cpp.obj	cf0ab6d8ded88386
+76	2152	7957813234392461	CMakeFiles/demo.dir/imgui/imgui.cpp.obj	24c8cb8b9d01e535
+106	3742	7957813234694000	CMakeFiles/demo.dir/classes/Game.cpp.obj	fd907b7994660123
+158	3778	7957813235206913	CMakeFiles/demo.dir/classes/Checkers.cpp.obj	1a0de21bd34eb8f6
+63	3077	7957815523609366	CMakeFiles/demo.dir/Application.cpp.obj	c63c7eba3bcd0312
+113	4517	7957813234763982	CMakeFiles/demo.dir/classes/Sprite.cpp.obj	daf1731f252f6cb6
+82	3131	7957815523815637	CMakeFiles/demo.dir/main_win32.cpp.obj	38497397c6263eca
+149	4025	7957813235121410	CMakeFiles/demo.dir/classes/TicTacToe.cpp.obj	69f581b2458c67fc
+176	4138	7957813235390237	CMakeFiles/demo.dir/classes/Connect4.cpp.obj	1bbf5be795766153
+166	4172	7957813235292048	CMakeFiles/demo.dir/classes/Othello.cpp.obj	9972b6adbd943e66
+4517	5476	7957813278806288	demo.exe	c5a51144b3d83b73
+69	3008	7957816221022357	CMakeFiles/demo.dir/Application.cpp.obj	c63c7eba3bcd0312
+79	3373	7957816221114657	CMakeFiles/demo.dir/classes/Connect4.cpp.obj	1bbf5be795766153
+3374	3795	7957816254059273	demo.exe	c5a51144b3d83b73

@@ -1,5 +1,5 @@
 #include "Connect4.h"
-#include "C:\Libraries\imgui\Timer\Timer.h"
+#include "../imgui/Timer/Timer.h"
 #include <random>
 Timer timer = Timer();
 
